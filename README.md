@@ -30,7 +30,7 @@ STM32的串口1波特率设置为1000000，连接到飞特舵机控制板的TX�
 USART1_RX	PA10
 USART1_TX	PA9
 
-![image-20210215193820804](https://ftp.bmp.ovh/imgs/2021/02/60dd86f10279348d.jpg)
+![image-20210215204900302](https://i.loli.net/2021/02/15/p5YTWluGe4qNBn9.png)
 
 使用SecureCRT软件连接串口，复位单片机，可以得到如下界面：
 
