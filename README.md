@@ -1,5 +1,11 @@
 # 5自由度机械臂控制程序
 
+video:
+
+https://www.bilibili.com/video/BV1dU4y1W7H9
+
+----------------------------------------------------------------------
+
 使用STM32CubeMX生成代码，使用了HAL库
 
 这是一个5自由度机械臂的控制程序，机械臂机械结构以3D打印制作。
@@ -31,6 +37,8 @@ USART1_RX	PA10
 USART1_TX	PA9
 
 ![image-20210215204900302](https://i.loli.net/2021/02/15/p5YTWluGe4qNBn9.png)
+
+![image-20210224215957655](https://gitee.com/buddismblingblinghead/MxyPic/raw/master/img/20210224215957.png)
 
 使用SecureCRT软件连接串口，复位单片机，可以得到如下界面：
 
