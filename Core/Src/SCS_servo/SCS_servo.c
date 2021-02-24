@@ -16,6 +16,10 @@
 #define POS_LEN 100
 #define GROUP_LEN 30
 #define GROUP_POS_LEN 15
+//#define ID_START 1
+//#define ID_END 5
+
+
 
 //开辟机械臂"位置"缓冲区
 Pos postion[POS_LEN];
@@ -62,9 +66,9 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), am
   */
 void ForceAll(uint8_t Enable_){
 	for(uint8_t ID_=0;ID_<5;ID_++){
-		unLockEprom(ID_);//打开EPROM保存功能
-		EnableTorque(ID_, Enable_);
-		LockEprom(ID_);//关闭EPROM保存功能
+		unLockEprom(ID_+1);//打开EPROM保存功能
+		EnableTorque(ID_+1, Enable_);
+		LockEprom(ID_+1);//关闭EPROM保存功能
 	}
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), fll, ForceAll, forceAll(en));
@@ -225,6 +229,18 @@ void readAll2ram()
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), ra, readAll2ram, readAll2ram());
 
+/**
+  * @brief  5个舵机全部归中
+  * @retval 无
+  */
+void ArmGoMiddle()
+{
+	for(uint8_t temp=0;temp<5;temp++)
+  {
+		WritePos(temp+1, 510, 1000, 0);
+  }
+}
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), mi, ArmGoMiddle, ArmGoMiddle());
 
 /*--------letter shell example begin--------*/
 //void fun(char en)
