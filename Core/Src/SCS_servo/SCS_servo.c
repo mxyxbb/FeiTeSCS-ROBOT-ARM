@@ -185,7 +185,7 @@ void SaveAll2ee()
 		Save2ee16(&lenadd,cnt);//在EEPROM的开头存位置数据总长度
 		
 		//----开始存动作组，最大450字节
-		for(uint8_t i=0;group[i][0]!=-1;i++)//遍历动作组ID
+		for(uint8_t i=0;group[i][0] != -1&& i < GROUP_LEN;i++)//遍历动作组ID
 		{
 			ee24_write(cnt,(uint8_t*)group[i],GROUP_POS_LEN,0xffff);//存储该动作组的位置序列
 			cnt+=GROUP_POS_LEN;
@@ -210,7 +210,7 @@ void readAll2ram()
 		Readee16(&cnt,len+1);//动作组数据总长度
 		
 		//----开始读位置----
-		for(uint8_t i=0;i<len[0]/sizeof(postion[0]);i++)//遍历位置ID
+		for(uint8_t i=0;(i<len[0])/sizeof(postion[0]);i++)//遍历位置ID
 		{
 			Readee16(&cnt,&postion[i].pos_id);//读ID
 			for(uint8_t j=0;j<5;j++)
@@ -220,7 +220,7 @@ void readAll2ram()
 			Readee16(&cnt,&postion[i].timems);//读ID
 		}
 		//----开始读动作组----
-		for(uint8_t i=0;i<len[1]/GROUP_POS_LEN;i++)//遍历动作组ID
+		for(uint8_t i=0;i<(len[1]-len[0])/GROUP_POS_LEN;i++)//遍历动作组ID
 		{
 			ee24_read(cnt,(uint8_t*)group[i],GROUP_POS_LEN,0xffff);//读取该动作组的位置序列
 			cnt+=GROUP_POS_LEN;
@@ -241,6 +241,19 @@ void ArmGoMiddle()
   }
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), mi, ArmGoMiddle, ArmGoMiddle());
+
+/**
+  * @brief  内部debug，不可用于其他用途
+  * @retval 无
+  */
+void ArmSetGroup()
+{
+	for(uint8_t temp=0;temp<30;temp++)
+  {
+		group[temp][0]=1;
+  }
+}
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), de1, ArmSetGroup, ArmSetGroup());
 
 /*--------letter shell example begin--------*/
 //void fun(char en)
