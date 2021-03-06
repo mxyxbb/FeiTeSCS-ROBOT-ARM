@@ -217,7 +217,7 @@ void readAll2ram()
 			{
 				Readee16(&cnt,&postion[i].angle[j]);//读舵机角
 			}
-			Readee16(&cnt,&postion[i].timems);//读ID
+			Readee16(&cnt,&postion[i].timems);//读动作时间
 		}
 		//----开始读动作组----
 		for(uint8_t i=0;i<(len[1]-len[0])/GROUP_POS_LEN;i++)//遍历动作组ID
