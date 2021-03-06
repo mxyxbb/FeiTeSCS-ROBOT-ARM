@@ -188,7 +188,7 @@
         <Ww>
           <count>6</count>
           <WinNumber>1</WinNumber>
-          <ItemText>postion[0]</ItemText>
+          <ItemText>postion[99]</ItemText>
         </Ww>
         <Ww>
           <count>7</count>
@@ -243,7 +243,17 @@
         <Ww>
           <count>17</count>
           <WinNumber>1</WinNumber>
-          <ItemText>group[30]</ItemText>
+          <ItemText>group[0]</ItemText>
+        </Ww>
+        <Ww>
+          <count>18</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>postion[0]</ItemText>
+        </Ww>
+        <Ww>
+          <count>19</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>cnt</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>

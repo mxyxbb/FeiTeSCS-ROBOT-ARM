@@ -3,7 +3,7 @@
 <title>Static Call Graph - [F407VET6_25MHz\F407VET6_25MHz.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image F407VET6_25MHz\F407VET6_25MHz.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sat Mar 06 16:22:19 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sat Mar 06 16:32:31 2021
 <BR><P>
 <H3>Maximum Stack Usage =        248 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -531,7 +531,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> scs_servo.o(shellCommand)
 </UL>
-<P><STRONG><a name="[6a]"></a>ArmSetGroup</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, scs_servo.o(i.ArmSetGroup))
+<P><STRONG><a name="[6a]"></a>ArmSetGroup</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, scs_servo.o(i.ArmSetGroup))
 <BR>[Address Reference Count : 1]<UL><LI> scs_servo.o(shellCommand)
 </UL>
 <P><STRONG><a name="[4]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.BusFault_Handler))
@@ -991,7 +991,7 @@ Global Symbols
 <P><STRONG><a name="[6]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.SVC_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
-<P><STRONG><a name="[67]"></a>SaveAll2ee</STRONG> (Thumb, 172 bytes, Stack size 32 bytes, scs_servo.o(i.SaveAll2ee))
+<P><STRONG><a name="[67]"></a>SaveAll2ee</STRONG> (Thumb, 176 bytes, Stack size 32 bytes, scs_servo.o(i.SaveAll2ee))
 <BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = SaveAll2ee &rArr; Save2ee16 &rArr; ee24_write &rArr; HAL_I2C_Mem_Write &rArr; I2C_RequestMemoryWrite &rArr; I2C_WaitOnMasterAddressFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ee24_write
@@ -1190,7 +1190,7 @@ Global Symbols
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read
 </UL>
 
-<P><STRONG><a name="[68]"></a>readAll2ram</STRONG> (Thumb, 102 bytes, Stack size 32 bytes, scs_servo.o(i.readAll2ram))
+<P><STRONG><a name="[68]"></a>readAll2ram</STRONG> (Thumb, 182 bytes, Stack size 32 bytes, scs_servo.o(i.readAll2ram))
 <BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = readAll2ram &rArr; Readee16 &rArr; ee24_read &rArr; HAL_I2C_Mem_Read &rArr; I2C_RequestMemoryRead &rArr; I2C_WaitOnMasterAddressFlagUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ee24_read

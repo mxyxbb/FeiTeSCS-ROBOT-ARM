@@ -1504,287 +1504,287 @@ Image Symbol Table
     i.ArmGoMiddle                            0x08000388   Section        0  scs_servo.o(i.ArmGoMiddle)
     i.ArmInit                                0x080003ac   Section        0  scs_servo.o(i.ArmInit)
     i.ArmSetGroup                            0x080003f0   Section        0  scs_servo.o(i.ArmSetGroup)
-    i.BusFault_Handler                       0x0800040c   Section        0  stm32f4xx_it.o(i.BusFault_Handler)
-    i.DebugMon_Handler                       0x0800040e   Section        0  stm32f4xx_it.o(i.DebugMon_Handler)
-    i.DoGroup                                0x08000410   Section        0  scs_servo.o(i.DoGroup)
-    i.EnableTorque                           0x08000434   Section        0  scscl.o(i.EnableTorque)
-    i.Error_Handler                          0x0800043c   Section        0  main.o(i.Error_Handler)
-    i.ForceAll                               0x08000440   Section        0  scs_servo.o(i.ForceAll)
-    i.GoPos                                  0x08000464   Section        0  scs_servo.o(i.GoPos)
-    i.HAL_DMA_Abort_IT                       0x0800049c   Section        0  stm32f4xx_hal_dma.o(i.HAL_DMA_Abort_IT)
-    i.HAL_Delay                              0x080004c0   Section        0  stm32f4xx_hal.o(i.HAL_Delay)
-    i.HAL_GPIO_Init                          0x080004e4   Section        0  stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init)
-    i.HAL_GetTick                            0x0800069c   Section        0  stm32f4xx_hal.o(i.HAL_GetTick)
-    i.HAL_I2C_Init                           0x080006a8   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Init)
-    i.HAL_I2C_IsDeviceReady                  0x08000830   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_IsDeviceReady)
-    i.HAL_I2C_Mem_Read                       0x0800099c   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Read)
-    i.HAL_I2C_Mem_Write                      0x08000b94   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Write)
-    i.HAL_I2C_MspInit                        0x08000cc4   Section        0  i2c.o(i.HAL_I2C_MspInit)
-    i.HAL_IncTick                            0x08000d2c   Section        0  stm32f4xx_hal.o(i.HAL_IncTick)
-    i.HAL_Init                               0x08000d3c   Section        0  stm32f4xx_hal.o(i.HAL_Init)
-    i.HAL_InitTick                           0x08000d70   Section        0  stm32f4xx_hal.o(i.HAL_InitTick)
-    i.HAL_MspInit                            0x08000db0   Section        0  stm32f4xx_hal_msp.o(i.HAL_MspInit)
-    i.HAL_NVIC_EnableIRQ                     0x08000de0   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ)
-    i.HAL_NVIC_SetPriority                   0x08000dfc   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority)
-    i.HAL_NVIC_SetPriorityGrouping           0x08000e3c   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping)
-    i.HAL_RCC_ClockConfig                    0x08000e60   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig)
-    i.HAL_RCC_GetPCLK1Freq                   0x08000f94   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq)
-    i.HAL_RCC_GetPCLK2Freq                   0x08000fb4   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq)
-    i.HAL_RCC_GetSysClockFreq                0x08000fd4   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq)
-    i.HAL_RCC_OscConfig                      0x08001038   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig)
-    i.HAL_SPI_Init                           0x08001394   Section        0  stm32f4xx_hal_spi.o(i.HAL_SPI_Init)
-    i.HAL_SPI_MspInit                        0x08001414   Section        0  spi.o(i.HAL_SPI_MspInit)
-    i.HAL_SYSTICK_Callback                   0x0800147c   Section        0  wiring.o(i.HAL_SYSTICK_Callback)
-    i.HAL_SYSTICK_Config                     0x0800148c   Section        0  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config)
-    i.HAL_SYSTICK_IRQHandler                 0x080014b4   Section        0  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler)
-    i.HAL_UART_ErrorCallback                 0x080014bc   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_ErrorCallback)
-    i.HAL_UART_IRQHandler                    0x080014c0   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler)
-    i.HAL_UART_Init                          0x080015d4   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Init)
-    i.HAL_UART_MspInit                       0x08001638   Section        0  usart.o(i.HAL_UART_MspInit)
-    i.HAL_UART_Receive_IT                    0x08001758   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
-    i.HAL_UART_RxCpltCallback                0x080017ac   Section        0  usart.o(i.HAL_UART_RxCpltCallback)
-    i.HAL_UART_Transmit                      0x080017f4   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Transmit)
-    i.HAL_UART_TxCpltCallback                0x080018ae   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
-    i.HardFault_Handler                      0x080018b0   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
-    i.Host2SCS                               0x080018b4   Section        0  scs.o(i.Host2SCS)
-    i.I2C_IsAcknowledgeFailed                0x080018d4   Section        0  stm32f4xx_hal_i2c.o(i.I2C_IsAcknowledgeFailed)
-    I2C_IsAcknowledgeFailed                  0x080018d5   Thumb Code    46  stm32f4xx_hal_i2c.o(i.I2C_IsAcknowledgeFailed)
-    i.I2C_RequestMemoryRead                  0x08001904   Section        0  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryRead)
-    I2C_RequestMemoryRead                    0x08001905   Thumb Code   246  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryRead)
-    i.I2C_RequestMemoryWrite                 0x08001a00   Section        0  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryWrite)
-    I2C_RequestMemoryWrite                   0x08001a01   Thumb Code   162  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryWrite)
-    i.I2C_WaitOnBTFFlagUntilTimeout          0x08001aa8   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnBTFFlagUntilTimeout)
-    I2C_WaitOnBTFFlagUntilTimeout            0x08001aa9   Thumb Code    76  stm32f4xx_hal_i2c.o(i.I2C_WaitOnBTFFlagUntilTimeout)
-    i.I2C_WaitOnFlagUntilTimeout             0x08001af4   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnFlagUntilTimeout)
-    I2C_WaitOnFlagUntilTimeout               0x08001af5   Thumb Code   104  stm32f4xx_hal_i2c.o(i.I2C_WaitOnFlagUntilTimeout)
-    i.I2C_WaitOnMasterAddressFlagUntilTimeout 0x08001b5c   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnMasterAddressFlagUntilTimeout)
-    I2C_WaitOnMasterAddressFlagUntilTimeout  0x08001b5d   Thumb Code   150  stm32f4xx_hal_i2c.o(i.I2C_WaitOnMasterAddressFlagUntilTimeout)
-    i.I2C_WaitOnRXNEFlagUntilTimeout         0x08001bf2   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnRXNEFlagUntilTimeout)
-    I2C_WaitOnRXNEFlagUntilTimeout           0x08001bf3   Thumb Code   102  stm32f4xx_hal_i2c.o(i.I2C_WaitOnRXNEFlagUntilTimeout)
-    i.I2C_WaitOnTXEFlagUntilTimeout          0x08001c58   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnTXEFlagUntilTimeout)
-    I2C_WaitOnTXEFlagUntilTimeout            0x08001c59   Thumb Code    76  stm32f4xx_hal_i2c.o(i.I2C_WaitOnTXEFlagUntilTimeout)
-    i.LockEprom                              0x08001ca4   Section        0  scscl.o(i.LockEprom)
-    i.MX_GPIO_Init                           0x08001cac   Section        0  gpio.o(i.MX_GPIO_Init)
-    i.MX_I2C1_Init                           0x08001cf8   Section        0  i2c.o(i.MX_I2C1_Init)
-    i.MX_SPI1_Init                           0x08001d38   Section        0  spi.o(i.MX_SPI1_Init)
-    i.MX_USART1_UART_Init                    0x08001d7c   Section        0  usart.o(i.MX_USART1_UART_Init)
-    i.MX_USART2_UART_Init                    0x08001db8   Section        0  usart.o(i.MX_USART2_UART_Init)
-    i.MX_USART3_UART_Init                    0x08001df0   Section        0  usart.o(i.MX_USART3_UART_Init)
-    i.MemManage_Handler                      0x08001e28   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
-    i.NMI_Handler                            0x08001e2a   Section        0  stm32f4xx_it.o(i.NMI_Handler)
-    i.PendSV_Handler                         0x08001e2c   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
-    i.Pos2Group                              0x08001e30   Section        0  scs_servo.o(i.Pos2Group)
-    i.Read                                   0x08001e40   Section        0  scs.o(i.Read)
-    i.ReadPos                                0x08001ed4   Section        0  scscl.o(i.ReadPos)
-    i.Readee16                               0x08001f08   Section        0  scs_servo.o(i.Readee16)
-    Readee16                                 0x08001f09   Thumb Code    42  scs_servo.o(i.Readee16)
-    i.SCS2Host                               0x08001f34   Section        0  scs.o(i.SCS2Host)
-    i.SCS_Uarthandle                         0x08001f4c   Section        0  uart.o(i.SCS_Uarthandle)
-    i.SVC_Handler                            0x08001f80   Section        0  stm32f4xx_it.o(i.SVC_Handler)
-    i.Save2ee16                              0x08001f82   Section        0  scs_servo.o(i.Save2ee16)
-    Save2ee16                                0x08001f83   Thumb Code    36  scs_servo.o(i.Save2ee16)
-    i.SaveAll2ee                             0x08001fa8   Section        0  scs_servo.o(i.SaveAll2ee)
-    i.SavePos                                0x0800205c   Section        0  scs_servo.o(i.SavePos)
-    i.SysTick_Handler                        0x080020a0   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
-    i.SystemClock_Config                     0x080020b0   Section        0  main.o(i.SystemClock_Config)
-    i.SystemInit                             0x08002148   Section        0  system_stm32f4xx.o(i.SystemInit)
-    i.UART_DMAAbortOnError                   0x08002164   Section        0  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
-    UART_DMAAbortOnError                     0x08002165   Thumb Code    16  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
-    i.UART_EndRxTransfer                     0x08002174   Section        0  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
-    UART_EndRxTransfer                       0x08002175   Thumb Code    28  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
-    i.UART_Receive_IT                        0x08002190   Section        0  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
-    UART_Receive_IT                          0x08002191   Thumb Code   150  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
-    i.UART_SetConfig                         0x08002228   Section        0  stm32f4xx_hal_uart.o(i.UART_SetConfig)
-    UART_SetConfig                           0x08002229   Thumb Code   286  stm32f4xx_hal_uart.o(i.UART_SetConfig)
-    i.UART_Transmit_IT                       0x08002350   Section        0  stm32f4xx_hal_uart.o(i.UART_Transmit_IT)
-    UART_Transmit_IT                         0x08002351   Thumb Code    98  stm32f4xx_hal_uart.o(i.UART_Transmit_IT)
-    i.UART_WaitOnFlagUntilTimeout            0x080023b2   Section        0  stm32f4xx_hal_uart.o(i.UART_WaitOnFlagUntilTimeout)
-    UART_WaitOnFlagUntilTimeout              0x080023b3   Thumb Code   100  stm32f4xx_hal_uart.o(i.UART_WaitOnFlagUntilTimeout)
-    i.USART1_IRQHandler                      0x08002418   Section        0  stm32f4xx_it.o(i.USART1_IRQHandler)
-    i.USART2_IRQHandler                      0x08002424   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
-    i.USART3_IRQHandler                      0x08002430   Section        0  stm32f4xx_it.o(i.USART3_IRQHandler)
-    i.Uart_Flush                             0x0800243c   Section        0  uart.o(i.Uart_Flush)
-    i.Uart_Read                              0x0800244c   Section        0  uart.o(i.Uart_Read)
-    i.Uart_Send                              0x08002480   Section        0  uart.o(i.Uart_Send)
-    i.UsageFault_Handler                     0x080024ac   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
-    i.User_Shell_Init                        0x080024b0   Section        0  shell_port.o(i.User_Shell_Init)
-    i.User_Shell_Write                       0x080024cc   Section        0  shell_port.o(i.User_Shell_Write)
-    i.WritePos                               0x080024e4   Section        0  scscl.o(i.WritePos)
-    i.__NVIC_SetPriority                     0x0800251e   Section        0  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    __NVIC_SetPriority                       0x0800251f   Thumb Code    32  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
-    i.__scatterload_copy                     0x0800253e   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x0800254c   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x0800254e   Section       14  handlers.o(i.__scatterload_zeroinit)
-    i.checkHead                              0x0800255c   Section        0  scs.o(i.checkHead)
-    i.delay                                  0x08002594   Section        0  wiring.o(i.delay)
-    i.ee24_isConnected                       0x080025a8   Section        0  ee24.o(i.ee24_isConnected)
-    i.ee24_read                              0x080025c4   Section        0  ee24.o(i.ee24_read)
-    i.ee24_write                             0x08002604   Section        0  ee24.o(i.ee24_write)
-    i.genWrite                               0x0800269c   Section        0  scs.o(i.genWrite)
-    i.main                                   0x080026c8   Section        0  main.o(i.main)
-    i.millis                                 0x08002714   Section        0  wiring.o(i.millis)
-    i.nopDelay                               0x08002720   Section        0  scs.o(i.nopDelay)
-    i.rFlushSCS                              0x0800272a   Section        0  scserail.o(i.rFlushSCS)
-    i.readAll2ram                            0x08002730   Section        0  scs_servo.o(i.readAll2ram)
-    i.readSCS                                0x0800279c   Section        0  scserail.o(i.readSCS)
-    i.readWord                               0x080027e0   Section        0  scs.o(i.readWord)
-    i.shellBackspace                         0x08002804   Section        0  shell.o(i.shellBackspace)
-    i.shellCheckPermission                   0x0800280a   Section        0  shell.o(i.shellCheckPermission)
-    i.shellClear                             0x08002838   Section        0  shell.o(i.shellClear)
-    i.shellClearCommandLine                  0x08002854   Section        0  shell.o(i.shellClearCommandLine)
-    i.shellCmds                              0x0800287c   Section        0  shell.o(i.shellCmds)
-    i.shellDelete                            0x08002890   Section        0  shell.o(i.shellDelete)
-    i.shellDeleteByte                        0x08002898   Section        0  shell.o(i.shellDeleteByte)
-    i.shellDeleteCommandLine                 0x08002950   Section        0  shell.o(i.shellDeleteCommandLine)
-    i.shellDown                              0x0800296c   Section        0  shell.o(i.shellDown)
-    i.shellEnter                             0x08002974   Section        0  shell.o(i.shellEnter)
-    i.shellExec                              0x08002988   Section        0  shell.o(i.shellExec)
-    i.shellExtParseChar                      0x08002a18   Section        0  shell_ext.o(i.shellExtParseChar)
-    shellExtParseChar                        0x08002a19   Thumb Code    60  shell_ext.o(i.shellExtParseChar)
-    i.shellExtParseNumber                    0x08002a54   Section        0  shell_ext.o(i.shellExtParseNumber)
-    shellExtParseNumber                      0x08002a55   Thumb Code   266  shell_ext.o(i.shellExtParseNumber)
-    i.shellExtParsePara                      0x08002b5e   Section        0  shell_ext.o(i.shellExtParsePara)
-    i.shellExtRun                            0x08002bfe   Section        0  shell_ext.o(i.shellExtRun)
-    i.shellGetCommandDesc                    0x08002cc4   Section        0  shell.o(i.shellGetCommandDesc)
-    shellGetCommandDesc                      0x08002cc5   Thumb Code     4  shell.o(i.shellGetCommandDesc)
-    i.shellGetCommandName                    0x08002cc8   Section        0  shell.o(i.shellGetCommandName)
-    shellGetCommandName                      0x08002cc9   Thumb Code    52  shell.o(i.shellGetCommandName)
-    i.shellGetCurrent                        0x08002d00   Section        0  shell.o(i.shellGetCurrent)
-    i.shellGetVarValue                       0x08002d28   Section        0  shell.o(i.shellGetVarValue)
-    i.shellHandler                           0x08002d68   Section        0  shell.o(i.shellHandler)
-    i.shellHelp                              0x08002e34   Section        0  shell.o(i.shellHelp)
-    i.shellHistory                           0x08002ea8   Section        0  shell.o(i.shellHistory)
-    shellHistory                             0x08002ea9   Thumb Code   152  shell.o(i.shellHistory)
-    i.shellHistoryAdd                        0x08002f40   Section        0  shell.o(i.shellHistoryAdd)
-    shellHistoryAdd                          0x08002f41   Thumb Code   104  shell.o(i.shellHistoryAdd)
-    i.shellInit                              0x08002fa8   Section        0  shell.o(i.shellInit)
-    i.shellInsertByte                        0x08003048   Section        0  shell.o(i.shellInsertByte)
-    i.shellKeys                              0x0800310c   Section        0  shell.o(i.shellKeys)
-    i.shellLeft                              0x08003120   Section        0  shell.o(i.shellLeft)
-    i.shellListCommand                       0x08003138   Section        0  shell.o(i.shellListCommand)
-    i.shellListItem                          0x08003184   Section        0  shell.o(i.shellListItem)
-    i.shellListKey                           0x08003270   Section        0  shell.o(i.shellListKey)
-    i.shellListUser                          0x080032c0   Section        0  shell.o(i.shellListUser)
-    i.shellListVar                           0x08003310   Section        0  shell.o(i.shellListVar)
-    i.shellNormalInput                       0x08003360   Section        0  shell.o(i.shellNormalInput)
-    i.shellParserParam                       0x08003370   Section        0  shell.o(i.shellParserParam)
-    shellParserParam                         0x08003371   Thumb Code   120  shell.o(i.shellParserParam)
-    i.shellRight                             0x080033e8   Section        0  shell.o(i.shellRight)
-    i.shellRunCommand                        0x08003400   Section        0  shell.o(i.shellRunCommand)
-    i.shellSeekCommand                       0x080034b8   Section        0  shell.o(i.shellSeekCommand)
-    i.shellSetUser                           0x08003528   Section        0  shell.o(i.shellSetUser)
-    shellSetUser                             0x08003529   Thumb Code    90  shell.o(i.shellSetUser)
-    i.shellSetVar                            0x08003588   Section        0  shell.o(i.shellSetVar)
-    i.shellSetVarValue                       0x080035e0   Section        0  shell.o(i.shellSetVarValue)
-    i.shellShowVar                           0x08003650   Section        0  shell.o(i.shellShowVar)
-    shellShowVar                             0x08003651   Thumb Code   142  shell.o(i.shellShowVar)
-    i.shellStringCompare                     0x08003700   Section        0  shell.o(i.shellStringCompare)
-    shellStringCompare                       0x08003701   Thumb Code    36  shell.o(i.shellStringCompare)
-    i.shellStringCopy                        0x08003724   Section        0  shell.o(i.shellStringCopy)
-    shellStringCopy                          0x08003725   Thumb Code    24  shell.o(i.shellStringCopy)
-    i.shellTab                               0x0800373c   Section        0  shell.o(i.shellTab)
-    i.shellToDec                             0x08003838   Section        0  shell.o(i.shellToDec)
-    i.shellToHex                             0x08003884   Section        0  shell.o(i.shellToHex)
-    i.shellUp                                0x080038ae   Section        0  shell.o(i.shellUp)
-    i.shellUsers                             0x080038b4   Section        0  shell.o(i.shellUsers)
-    i.shellVars                              0x080038c8   Section        0  shell.o(i.shellVars)
-    i.shellWriteCommandLine                  0x080038dc   Section        0  shell.o(i.shellWriteCommandLine)
-    shellWriteCommandLine                    0x080038dd   Thumb Code    70  shell.o(i.shellWriteCommandLine)
-    i.shellWriteReturnValue                  0x08003938   Section        0  shell.o(i.shellWriteReturnValue)
-    shellWriteReturnValue                    0x08003939   Thumb Code    92  shell.o(i.shellWriteReturnValue)
-    i.shellWriteString                       0x080039b8   Section        0  shell.o(i.shellWriteString)
-    i.unLockEprom                            0x080039dc   Section        0  scscl.o(i.unLockEprom)
-    i.wFlushSCS                              0x080039e4   Section        0  scserail.o(i.wFlushSCS)
-    i.writeBuf                               0x08003a04   Section        0  scs.o(i.writeBuf)
-    i.writeByte                              0x08003a98   Section        0  scs.o(i.writeByte)
-    i.writeSCS                               0x08003ac4   Section        0  scserail.o(i.writeSCS)
-    .constdata                               0x08003aec   Section       16  system_stm32f4xx.o(.constdata)
-    .constdata                               0x08003afc   Section        8  system_stm32f4xx.o(.constdata)
-    .constdata                               0x08003b04   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b08   Section       10  scs_servo.o(.constdata)
-    .constdata                               0x08003b12   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b16   Section       22  scs_servo.o(.constdata)
-    .constdata                               0x08003b2c   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b30   Section       13  scs_servo.o(.constdata)
-    .constdata                               0x08003b3d   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b41   Section       17  scs_servo.o(.constdata)
-    .constdata                               0x08003b52   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b56   Section       10  scs_servo.o(.constdata)
-    .constdata                               0x08003b60   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b64   Section       24  scs_servo.o(.constdata)
-    .constdata                               0x08003b7c   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003b80   Section       12  scs_servo.o(.constdata)
-    .constdata                               0x08003b8c   Section        3  scs_servo.o(.constdata)
-    .constdata                               0x08003b8f   Section       13  scs_servo.o(.constdata)
-    .constdata                               0x08003b9c   Section        3  scs_servo.o(.constdata)
-    .constdata                               0x08003b9f   Section       14  scs_servo.o(.constdata)
-    .constdata                               0x08003bad   Section        3  scs_servo.o(.constdata)
-    .constdata                               0x08003bb0   Section       14  scs_servo.o(.constdata)
-    .constdata                               0x08003bbe   Section        4  scs_servo.o(.constdata)
-    .constdata                               0x08003bc2   Section       14  scs_servo.o(.constdata)
-    .constdata                               0x08003bd0   Section        3  scscl.o(.constdata)
-    .constdata                               0x08003bd3   Section       27  scscl.o(.constdata)
-    .constdata                               0x08003bee   Section        7  shell.o(.constdata)
-    .constdata                               0x08003bf5   Section        1  shell.o(.constdata)
-    .constdata                               0x08003bf6   Section       13  shell.o(.constdata)
-    .constdata                               0x08003c03   Section        7  shell.o(.constdata)
-    .constdata                               0x08003c0a   Section        8  shell.o(.constdata)
-    .constdata                               0x08003c12   Section        3  shell.o(.constdata)
-    .constdata                               0x08003c15   Section        5  shell.o(.constdata)
-    .constdata                               0x08003c1a   Section        6  shell.o(.constdata)
-    .constdata                               0x08003c20   Section        5  shell.o(.constdata)
-    .constdata                               0x08003c25   Section        4  shell.o(.constdata)
-    .constdata                               0x08003c29   Section       10  shell.o(.constdata)
-    .constdata                               0x08003c33   Section       10  shell.o(.constdata)
-    .constdata                               0x08003c3d   Section        7  shell.o(.constdata)
-    .constdata                               0x08003c44   Section        6  shell.o(.constdata)
-    .constdata                               0x08003c4a   Section        6  shell.o(.constdata)
-    .constdata                               0x08003c50   Section        5  shell.o(.constdata)
-    .constdata                               0x08003c55   Section       30  shell.o(.constdata)
-    .constdata                               0x08003c73   Section        6  shell.o(.constdata)
-    .constdata                               0x08003c79   Section       14  shell.o(.constdata)
-    .constdata                               0x08003c87   Section        5  shell.o(.constdata)
-    .constdata                               0x08003c8c   Section       13  shell.o(.constdata)
-    .constdata                               0x08003c99   Section        5  shell.o(.constdata)
-    .constdata                               0x08003c9e   Section       13  shell.o(.constdata)
-    .constdata                               0x08003cab   Section        5  shell.o(.constdata)
-    .constdata                               0x08003cb0   Section       13  shell.o(.constdata)
-    .constdata                               0x08003cbd   Section        6  shell.o(.constdata)
-    .constdata                               0x08003cc3   Section       14  shell.o(.constdata)
-    .conststring                             0x08003cd4   Section      677  shell.o(.conststring)
-    shellCommand                             0x08003f9c   Section      176  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003f9c   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003fac   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003fbc   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003fcc   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003fdc   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003fec   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x08003ffc   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x0800400c   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x0800401c   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x0800402c   Number         0  scs_servo.o(shellCommand)
-    __tagsym$$used                           0x0800403c   Number         0  scs_servo.o(shellCommand)
-    shellCommand                             0x0800404c   Section       16  scscl.o(shellCommand)
-    __tagsym$$used                           0x0800404c   Number         0  scscl.o(shellCommand)
-    shellCommand                             0x0800405c   Section      288  shell.o(shellCommand)
-    __tagsym$$used                           0x0800405c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800406c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800407c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800408c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800409c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040ac   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040bc   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040cc   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040dc   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040ec   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x080040fc   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800410c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800411c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800412c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800413c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800414c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800415c   Number         0  shell.o(shellCommand)
-    __tagsym$$used                           0x0800416c   Number         0  shell.o(shellCommand)
+    i.BusFault_Handler                       0x08000428   Section        0  stm32f4xx_it.o(i.BusFault_Handler)
+    i.DebugMon_Handler                       0x0800042a   Section        0  stm32f4xx_it.o(i.DebugMon_Handler)
+    i.DoGroup                                0x0800042c   Section        0  scs_servo.o(i.DoGroup)
+    i.EnableTorque                           0x08000450   Section        0  scscl.o(i.EnableTorque)
+    i.Error_Handler                          0x08000458   Section        0  main.o(i.Error_Handler)
+    i.ForceAll                               0x0800045c   Section        0  scs_servo.o(i.ForceAll)
+    i.GoPos                                  0x08000480   Section        0  scs_servo.o(i.GoPos)
+    i.HAL_DMA_Abort_IT                       0x080004b8   Section        0  stm32f4xx_hal_dma.o(i.HAL_DMA_Abort_IT)
+    i.HAL_Delay                              0x080004dc   Section        0  stm32f4xx_hal.o(i.HAL_Delay)
+    i.HAL_GPIO_Init                          0x08000500   Section        0  stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init)
+    i.HAL_GetTick                            0x080006b8   Section        0  stm32f4xx_hal.o(i.HAL_GetTick)
+    i.HAL_I2C_Init                           0x080006c4   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Init)
+    i.HAL_I2C_IsDeviceReady                  0x0800084c   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_IsDeviceReady)
+    i.HAL_I2C_Mem_Read                       0x080009b8   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Read)
+    i.HAL_I2C_Mem_Write                      0x08000bb0   Section        0  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Write)
+    i.HAL_I2C_MspInit                        0x08000ce0   Section        0  i2c.o(i.HAL_I2C_MspInit)
+    i.HAL_IncTick                            0x08000d48   Section        0  stm32f4xx_hal.o(i.HAL_IncTick)
+    i.HAL_Init                               0x08000d58   Section        0  stm32f4xx_hal.o(i.HAL_Init)
+    i.HAL_InitTick                           0x08000d8c   Section        0  stm32f4xx_hal.o(i.HAL_InitTick)
+    i.HAL_MspInit                            0x08000dcc   Section        0  stm32f4xx_hal_msp.o(i.HAL_MspInit)
+    i.HAL_NVIC_EnableIRQ                     0x08000dfc   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ)
+    i.HAL_NVIC_SetPriority                   0x08000e18   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority)
+    i.HAL_NVIC_SetPriorityGrouping           0x08000e58   Section        0  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping)
+    i.HAL_RCC_ClockConfig                    0x08000e7c   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig)
+    i.HAL_RCC_GetPCLK1Freq                   0x08000fb0   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq)
+    i.HAL_RCC_GetPCLK2Freq                   0x08000fd0   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq)
+    i.HAL_RCC_GetSysClockFreq                0x08000ff0   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq)
+    i.HAL_RCC_OscConfig                      0x08001054   Section        0  stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig)
+    i.HAL_SPI_Init                           0x080013b0   Section        0  stm32f4xx_hal_spi.o(i.HAL_SPI_Init)
+    i.HAL_SPI_MspInit                        0x08001430   Section        0  spi.o(i.HAL_SPI_MspInit)
+    i.HAL_SYSTICK_Callback                   0x08001498   Section        0  wiring.o(i.HAL_SYSTICK_Callback)
+    i.HAL_SYSTICK_Config                     0x080014a8   Section        0  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config)
+    i.HAL_SYSTICK_IRQHandler                 0x080014d0   Section        0  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler)
+    i.HAL_UART_ErrorCallback                 0x080014d8   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_ErrorCallback)
+    i.HAL_UART_IRQHandler                    0x080014dc   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler)
+    i.HAL_UART_Init                          0x080015f0   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Init)
+    i.HAL_UART_MspInit                       0x08001654   Section        0  usart.o(i.HAL_UART_MspInit)
+    i.HAL_UART_Receive_IT                    0x08001774   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
+    i.HAL_UART_RxCpltCallback                0x080017c8   Section        0  usart.o(i.HAL_UART_RxCpltCallback)
+    i.HAL_UART_Transmit                      0x08001810   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_Transmit)
+    i.HAL_UART_TxCpltCallback                0x080018ca   Section        0  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
+    i.HardFault_Handler                      0x080018cc   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
+    i.Host2SCS                               0x080018d0   Section        0  scs.o(i.Host2SCS)
+    i.I2C_IsAcknowledgeFailed                0x080018f0   Section        0  stm32f4xx_hal_i2c.o(i.I2C_IsAcknowledgeFailed)
+    I2C_IsAcknowledgeFailed                  0x080018f1   Thumb Code    46  stm32f4xx_hal_i2c.o(i.I2C_IsAcknowledgeFailed)
+    i.I2C_RequestMemoryRead                  0x08001920   Section        0  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryRead)
+    I2C_RequestMemoryRead                    0x08001921   Thumb Code   246  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryRead)
+    i.I2C_RequestMemoryWrite                 0x08001a1c   Section        0  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryWrite)
+    I2C_RequestMemoryWrite                   0x08001a1d   Thumb Code   162  stm32f4xx_hal_i2c.o(i.I2C_RequestMemoryWrite)
+    i.I2C_WaitOnBTFFlagUntilTimeout          0x08001ac4   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnBTFFlagUntilTimeout)
+    I2C_WaitOnBTFFlagUntilTimeout            0x08001ac5   Thumb Code    76  stm32f4xx_hal_i2c.o(i.I2C_WaitOnBTFFlagUntilTimeout)
+    i.I2C_WaitOnFlagUntilTimeout             0x08001b10   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnFlagUntilTimeout)
+    I2C_WaitOnFlagUntilTimeout               0x08001b11   Thumb Code   104  stm32f4xx_hal_i2c.o(i.I2C_WaitOnFlagUntilTimeout)
+    i.I2C_WaitOnMasterAddressFlagUntilTimeout 0x08001b78   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnMasterAddressFlagUntilTimeout)
+    I2C_WaitOnMasterAddressFlagUntilTimeout  0x08001b79   Thumb Code   150  stm32f4xx_hal_i2c.o(i.I2C_WaitOnMasterAddressFlagUntilTimeout)
+    i.I2C_WaitOnRXNEFlagUntilTimeout         0x08001c0e   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnRXNEFlagUntilTimeout)
+    I2C_WaitOnRXNEFlagUntilTimeout           0x08001c0f   Thumb Code   102  stm32f4xx_hal_i2c.o(i.I2C_WaitOnRXNEFlagUntilTimeout)
+    i.I2C_WaitOnTXEFlagUntilTimeout          0x08001c74   Section        0  stm32f4xx_hal_i2c.o(i.I2C_WaitOnTXEFlagUntilTimeout)
+    I2C_WaitOnTXEFlagUntilTimeout            0x08001c75   Thumb Code    76  stm32f4xx_hal_i2c.o(i.I2C_WaitOnTXEFlagUntilTimeout)
+    i.LockEprom                              0x08001cc0   Section        0  scscl.o(i.LockEprom)
+    i.MX_GPIO_Init                           0x08001cc8   Section        0  gpio.o(i.MX_GPIO_Init)
+    i.MX_I2C1_Init                           0x08001d14   Section        0  i2c.o(i.MX_I2C1_Init)
+    i.MX_SPI1_Init                           0x08001d54   Section        0  spi.o(i.MX_SPI1_Init)
+    i.MX_USART1_UART_Init                    0x08001d98   Section        0  usart.o(i.MX_USART1_UART_Init)
+    i.MX_USART2_UART_Init                    0x08001dd4   Section        0  usart.o(i.MX_USART2_UART_Init)
+    i.MX_USART3_UART_Init                    0x08001e0c   Section        0  usart.o(i.MX_USART3_UART_Init)
+    i.MemManage_Handler                      0x08001e44   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
+    i.NMI_Handler                            0x08001e46   Section        0  stm32f4xx_it.o(i.NMI_Handler)
+    i.PendSV_Handler                         0x08001e48   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
+    i.Pos2Group                              0x08001e4c   Section        0  scs_servo.o(i.Pos2Group)
+    i.Read                                   0x08001e5c   Section        0  scs.o(i.Read)
+    i.ReadPos                                0x08001ef0   Section        0  scscl.o(i.ReadPos)
+    i.Readee16                               0x08001f24   Section        0  scs_servo.o(i.Readee16)
+    Readee16                                 0x08001f25   Thumb Code    42  scs_servo.o(i.Readee16)
+    i.SCS2Host                               0x08001f50   Section        0  scs.o(i.SCS2Host)
+    i.SCS_Uarthandle                         0x08001f68   Section        0  uart.o(i.SCS_Uarthandle)
+    i.SVC_Handler                            0x08001f9c   Section        0  stm32f4xx_it.o(i.SVC_Handler)
+    i.Save2ee16                              0x08001f9e   Section        0  scs_servo.o(i.Save2ee16)
+    Save2ee16                                0x08001f9f   Thumb Code    36  scs_servo.o(i.Save2ee16)
+    i.SaveAll2ee                             0x08001fc4   Section        0  scs_servo.o(i.SaveAll2ee)
+    i.SavePos                                0x0800207c   Section        0  scs_servo.o(i.SavePos)
+    i.SysTick_Handler                        0x080020c0   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
+    i.SystemClock_Config                     0x080020d0   Section        0  main.o(i.SystemClock_Config)
+    i.SystemInit                             0x08002168   Section        0  system_stm32f4xx.o(i.SystemInit)
+    i.UART_DMAAbortOnError                   0x08002184   Section        0  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
+    UART_DMAAbortOnError                     0x08002185   Thumb Code    16  stm32f4xx_hal_uart.o(i.UART_DMAAbortOnError)
+    i.UART_EndRxTransfer                     0x08002194   Section        0  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
+    UART_EndRxTransfer                       0x08002195   Thumb Code    28  stm32f4xx_hal_uart.o(i.UART_EndRxTransfer)
+    i.UART_Receive_IT                        0x080021b0   Section        0  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
+    UART_Receive_IT                          0x080021b1   Thumb Code   150  stm32f4xx_hal_uart.o(i.UART_Receive_IT)
+    i.UART_SetConfig                         0x08002248   Section        0  stm32f4xx_hal_uart.o(i.UART_SetConfig)
+    UART_SetConfig                           0x08002249   Thumb Code   286  stm32f4xx_hal_uart.o(i.UART_SetConfig)
+    i.UART_Transmit_IT                       0x08002370   Section        0  stm32f4xx_hal_uart.o(i.UART_Transmit_IT)
+    UART_Transmit_IT                         0x08002371   Thumb Code    98  stm32f4xx_hal_uart.o(i.UART_Transmit_IT)
+    i.UART_WaitOnFlagUntilTimeout            0x080023d2   Section        0  stm32f4xx_hal_uart.o(i.UART_WaitOnFlagUntilTimeout)
+    UART_WaitOnFlagUntilTimeout              0x080023d3   Thumb Code   100  stm32f4xx_hal_uart.o(i.UART_WaitOnFlagUntilTimeout)
+    i.USART1_IRQHandler                      0x08002438   Section        0  stm32f4xx_it.o(i.USART1_IRQHandler)
+    i.USART2_IRQHandler                      0x08002444   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
+    i.USART3_IRQHandler                      0x08002450   Section        0  stm32f4xx_it.o(i.USART3_IRQHandler)
+    i.Uart_Flush                             0x0800245c   Section        0  uart.o(i.Uart_Flush)
+    i.Uart_Read                              0x0800246c   Section        0  uart.o(i.Uart_Read)
+    i.Uart_Send                              0x080024a0   Section        0  uart.o(i.Uart_Send)
+    i.UsageFault_Handler                     0x080024cc   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
+    i.User_Shell_Init                        0x080024d0   Section        0  shell_port.o(i.User_Shell_Init)
+    i.User_Shell_Write                       0x080024ec   Section        0  shell_port.o(i.User_Shell_Write)
+    i.WritePos                               0x08002504   Section        0  scscl.o(i.WritePos)
+    i.__NVIC_SetPriority                     0x0800253e   Section        0  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    __NVIC_SetPriority                       0x0800253f   Thumb Code    32  stm32f4xx_hal_cortex.o(i.__NVIC_SetPriority)
+    i.__scatterload_copy                     0x0800255e   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x0800256c   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x0800256e   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.checkHead                              0x0800257c   Section        0  scs.o(i.checkHead)
+    i.delay                                  0x080025b4   Section        0  wiring.o(i.delay)
+    i.ee24_isConnected                       0x080025c8   Section        0  ee24.o(i.ee24_isConnected)
+    i.ee24_read                              0x080025e4   Section        0  ee24.o(i.ee24_read)
+    i.ee24_write                             0x08002624   Section        0  ee24.o(i.ee24_write)
+    i.genWrite                               0x080026bc   Section        0  scs.o(i.genWrite)
+    i.main                                   0x080026e8   Section        0  main.o(i.main)
+    i.millis                                 0x08002734   Section        0  wiring.o(i.millis)
+    i.nopDelay                               0x08002740   Section        0  scs.o(i.nopDelay)
+    i.rFlushSCS                              0x0800274a   Section        0  scserail.o(i.rFlushSCS)
+    i.readAll2ram                            0x08002750   Section        0  scs_servo.o(i.readAll2ram)
+    i.readSCS                                0x08002810   Section        0  scserail.o(i.readSCS)
+    i.readWord                               0x08002854   Section        0  scs.o(i.readWord)
+    i.shellBackspace                         0x08002878   Section        0  shell.o(i.shellBackspace)
+    i.shellCheckPermission                   0x0800287e   Section        0  shell.o(i.shellCheckPermission)
+    i.shellClear                             0x080028ac   Section        0  shell.o(i.shellClear)
+    i.shellClearCommandLine                  0x080028c8   Section        0  shell.o(i.shellClearCommandLine)
+    i.shellCmds                              0x080028f0   Section        0  shell.o(i.shellCmds)
+    i.shellDelete                            0x08002904   Section        0  shell.o(i.shellDelete)
+    i.shellDeleteByte                        0x0800290c   Section        0  shell.o(i.shellDeleteByte)
+    i.shellDeleteCommandLine                 0x080029c4   Section        0  shell.o(i.shellDeleteCommandLine)
+    i.shellDown                              0x080029e0   Section        0  shell.o(i.shellDown)
+    i.shellEnter                             0x080029e8   Section        0  shell.o(i.shellEnter)
+    i.shellExec                              0x080029fc   Section        0  shell.o(i.shellExec)
+    i.shellExtParseChar                      0x08002a8c   Section        0  shell_ext.o(i.shellExtParseChar)
+    shellExtParseChar                        0x08002a8d   Thumb Code    60  shell_ext.o(i.shellExtParseChar)
+    i.shellExtParseNumber                    0x08002ac8   Section        0  shell_ext.o(i.shellExtParseNumber)
+    shellExtParseNumber                      0x08002ac9   Thumb Code   266  shell_ext.o(i.shellExtParseNumber)
+    i.shellExtParsePara                      0x08002bd2   Section        0  shell_ext.o(i.shellExtParsePara)
+    i.shellExtRun                            0x08002c72   Section        0  shell_ext.o(i.shellExtRun)
+    i.shellGetCommandDesc                    0x08002d38   Section        0  shell.o(i.shellGetCommandDesc)
+    shellGetCommandDesc                      0x08002d39   Thumb Code     4  shell.o(i.shellGetCommandDesc)
+    i.shellGetCommandName                    0x08002d3c   Section        0  shell.o(i.shellGetCommandName)
+    shellGetCommandName                      0x08002d3d   Thumb Code    52  shell.o(i.shellGetCommandName)
+    i.shellGetCurrent                        0x08002d74   Section        0  shell.o(i.shellGetCurrent)
+    i.shellGetVarValue                       0x08002d9c   Section        0  shell.o(i.shellGetVarValue)
+    i.shellHandler                           0x08002ddc   Section        0  shell.o(i.shellHandler)
+    i.shellHelp                              0x08002ea8   Section        0  shell.o(i.shellHelp)
+    i.shellHistory                           0x08002f1c   Section        0  shell.o(i.shellHistory)
+    shellHistory                             0x08002f1d   Thumb Code   152  shell.o(i.shellHistory)
+    i.shellHistoryAdd                        0x08002fb4   Section        0  shell.o(i.shellHistoryAdd)
+    shellHistoryAdd                          0x08002fb5   Thumb Code   104  shell.o(i.shellHistoryAdd)
+    i.shellInit                              0x0800301c   Section        0  shell.o(i.shellInit)
+    i.shellInsertByte                        0x080030bc   Section        0  shell.o(i.shellInsertByte)
+    i.shellKeys                              0x08003180   Section        0  shell.o(i.shellKeys)
+    i.shellLeft                              0x08003194   Section        0  shell.o(i.shellLeft)
+    i.shellListCommand                       0x080031ac   Section        0  shell.o(i.shellListCommand)
+    i.shellListItem                          0x080031f8   Section        0  shell.o(i.shellListItem)
+    i.shellListKey                           0x080032e4   Section        0  shell.o(i.shellListKey)
+    i.shellListUser                          0x08003334   Section        0  shell.o(i.shellListUser)
+    i.shellListVar                           0x08003384   Section        0  shell.o(i.shellListVar)
+    i.shellNormalInput                       0x080033d4   Section        0  shell.o(i.shellNormalInput)
+    i.shellParserParam                       0x080033e4   Section        0  shell.o(i.shellParserParam)
+    shellParserParam                         0x080033e5   Thumb Code   120  shell.o(i.shellParserParam)
+    i.shellRight                             0x0800345c   Section        0  shell.o(i.shellRight)
+    i.shellRunCommand                        0x08003474   Section        0  shell.o(i.shellRunCommand)
+    i.shellSeekCommand                       0x0800352c   Section        0  shell.o(i.shellSeekCommand)
+    i.shellSetUser                           0x0800359c   Section        0  shell.o(i.shellSetUser)
+    shellSetUser                             0x0800359d   Thumb Code    90  shell.o(i.shellSetUser)
+    i.shellSetVar                            0x080035fc   Section        0  shell.o(i.shellSetVar)
+    i.shellSetVarValue                       0x08003654   Section        0  shell.o(i.shellSetVarValue)
+    i.shellShowVar                           0x080036c4   Section        0  shell.o(i.shellShowVar)
+    shellShowVar                             0x080036c5   Thumb Code   142  shell.o(i.shellShowVar)
+    i.shellStringCompare                     0x08003774   Section        0  shell.o(i.shellStringCompare)
+    shellStringCompare                       0x08003775   Thumb Code    36  shell.o(i.shellStringCompare)
+    i.shellStringCopy                        0x08003798   Section        0  shell.o(i.shellStringCopy)
+    shellStringCopy                          0x08003799   Thumb Code    24  shell.o(i.shellStringCopy)
+    i.shellTab                               0x080037b0   Section        0  shell.o(i.shellTab)
+    i.shellToDec                             0x080038ac   Section        0  shell.o(i.shellToDec)
+    i.shellToHex                             0x080038f8   Section        0  shell.o(i.shellToHex)
+    i.shellUp                                0x08003922   Section        0  shell.o(i.shellUp)
+    i.shellUsers                             0x08003928   Section        0  shell.o(i.shellUsers)
+    i.shellVars                              0x0800393c   Section        0  shell.o(i.shellVars)
+    i.shellWriteCommandLine                  0x08003950   Section        0  shell.o(i.shellWriteCommandLine)
+    shellWriteCommandLine                    0x08003951   Thumb Code    70  shell.o(i.shellWriteCommandLine)
+    i.shellWriteReturnValue                  0x080039ac   Section        0  shell.o(i.shellWriteReturnValue)
+    shellWriteReturnValue                    0x080039ad   Thumb Code    92  shell.o(i.shellWriteReturnValue)
+    i.shellWriteString                       0x08003a2c   Section        0  shell.o(i.shellWriteString)
+    i.unLockEprom                            0x08003a50   Section        0  scscl.o(i.unLockEprom)
+    i.wFlushSCS                              0x08003a58   Section        0  scserail.o(i.wFlushSCS)
+    i.writeBuf                               0x08003a78   Section        0  scs.o(i.writeBuf)
+    i.writeByte                              0x08003b0c   Section        0  scs.o(i.writeByte)
+    i.writeSCS                               0x08003b38   Section        0  scserail.o(i.writeSCS)
+    .constdata                               0x08003b60   Section       16  system_stm32f4xx.o(.constdata)
+    .constdata                               0x08003b70   Section        8  system_stm32f4xx.o(.constdata)
+    .constdata                               0x08003b78   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003b7c   Section       10  scs_servo.o(.constdata)
+    .constdata                               0x08003b86   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003b8a   Section       22  scs_servo.o(.constdata)
+    .constdata                               0x08003ba0   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003ba4   Section       13  scs_servo.o(.constdata)
+    .constdata                               0x08003bb1   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003bb5   Section       17  scs_servo.o(.constdata)
+    .constdata                               0x08003bc6   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003bca   Section       10  scs_servo.o(.constdata)
+    .constdata                               0x08003bd4   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003bd8   Section       24  scs_servo.o(.constdata)
+    .constdata                               0x08003bf0   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003bf4   Section       12  scs_servo.o(.constdata)
+    .constdata                               0x08003c00   Section        3  scs_servo.o(.constdata)
+    .constdata                               0x08003c03   Section       13  scs_servo.o(.constdata)
+    .constdata                               0x08003c10   Section        3  scs_servo.o(.constdata)
+    .constdata                               0x08003c13   Section       14  scs_servo.o(.constdata)
+    .constdata                               0x08003c21   Section        3  scs_servo.o(.constdata)
+    .constdata                               0x08003c24   Section       14  scs_servo.o(.constdata)
+    .constdata                               0x08003c32   Section        4  scs_servo.o(.constdata)
+    .constdata                               0x08003c36   Section       14  scs_servo.o(.constdata)
+    .constdata                               0x08003c44   Section        3  scscl.o(.constdata)
+    .constdata                               0x08003c47   Section       27  scscl.o(.constdata)
+    .constdata                               0x08003c62   Section        7  shell.o(.constdata)
+    .constdata                               0x08003c69   Section        1  shell.o(.constdata)
+    .constdata                               0x08003c6a   Section       13  shell.o(.constdata)
+    .constdata                               0x08003c77   Section        7  shell.o(.constdata)
+    .constdata                               0x08003c7e   Section        8  shell.o(.constdata)
+    .constdata                               0x08003c86   Section        3  shell.o(.constdata)
+    .constdata                               0x08003c89   Section        5  shell.o(.constdata)
+    .constdata                               0x08003c8e   Section        6  shell.o(.constdata)
+    .constdata                               0x08003c94   Section        5  shell.o(.constdata)
+    .constdata                               0x08003c99   Section        4  shell.o(.constdata)
+    .constdata                               0x08003c9d   Section       10  shell.o(.constdata)
+    .constdata                               0x08003ca7   Section       10  shell.o(.constdata)
+    .constdata                               0x08003cb1   Section        7  shell.o(.constdata)
+    .constdata                               0x08003cb8   Section        6  shell.o(.constdata)
+    .constdata                               0x08003cbe   Section        6  shell.o(.constdata)
+    .constdata                               0x08003cc4   Section        5  shell.o(.constdata)
+    .constdata                               0x08003cc9   Section       30  shell.o(.constdata)
+    .constdata                               0x08003ce7   Section        6  shell.o(.constdata)
+    .constdata                               0x08003ced   Section       14  shell.o(.constdata)
+    .constdata                               0x08003cfb   Section        5  shell.o(.constdata)
+    .constdata                               0x08003d00   Section       13  shell.o(.constdata)
+    .constdata                               0x08003d0d   Section        5  shell.o(.constdata)
+    .constdata                               0x08003d12   Section       13  shell.o(.constdata)
+    .constdata                               0x08003d1f   Section        5  shell.o(.constdata)
+    .constdata                               0x08003d24   Section       13  shell.o(.constdata)
+    .constdata                               0x08003d31   Section        6  shell.o(.constdata)
+    .constdata                               0x08003d37   Section       14  shell.o(.constdata)
+    .conststring                             0x08003d48   Section      677  shell.o(.conststring)
+    shellCommand                             0x08004010   Section      176  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004010   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004020   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004030   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004040   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004050   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004060   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004070   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004080   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x08004090   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x080040a0   Number         0  scs_servo.o(shellCommand)
+    __tagsym$$used                           0x080040b0   Number         0  scs_servo.o(shellCommand)
+    shellCommand                             0x080040c0   Section       16  scscl.o(shellCommand)
+    __tagsym$$used                           0x080040c0   Number         0  scscl.o(shellCommand)
+    shellCommand                             0x080040d0   Section      288  shell.o(shellCommand)
+    __tagsym$$used                           0x080040d0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080040e0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080040f0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004100   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004110   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004120   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004130   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004140   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004150   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004160   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004170   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004180   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x08004190   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080041a0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080041b0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080041c0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080041d0   Number         0  shell.o(shellCommand)
+    __tagsym$$used                           0x080041e0   Number         0  shell.o(shellCommand)
     .data                                    0x20000000   Section       12  stm32f4xx_hal.o(.data)
     .data                                    0x2000000c   Section        4  system_stm32f4xx.o(.data)
     .data                                    0x20000010   Section        2  scs.o(.data)
@@ -1939,228 +1939,228 @@ Image Symbol Table
     ArmForceEnable                           0x0800036d   Thumb Code    28  scs_servo.o(i.ArmForceEnable)
     ArmGoMiddle                              0x08000389   Thumb Code    34  scs_servo.o(i.ArmGoMiddle)
     ArmInit                                  0x080003ad   Thumb Code    58  scs_servo.o(i.ArmInit)
-    ArmSetGroup                              0x080003f1   Thumb Code    24  scs_servo.o(i.ArmSetGroup)
-    BusFault_Handler                         0x0800040d   Thumb Code     2  stm32f4xx_it.o(i.BusFault_Handler)
-    DebugMon_Handler                         0x0800040f   Thumb Code     2  stm32f4xx_it.o(i.DebugMon_Handler)
-    DoGroup                                  0x08000411   Thumb Code    32  scs_servo.o(i.DoGroup)
-    EnableTorque                             0x08000435   Thumb Code     8  scscl.o(i.EnableTorque)
-    Error_Handler                            0x0800043d   Thumb Code     4  main.o(i.Error_Handler)
-    ForceAll                                 0x08000441   Thumb Code    36  scs_servo.o(i.ForceAll)
-    GoPos                                    0x08000465   Thumb Code    52  scs_servo.o(i.GoPos)
-    HAL_DMA_Abort_IT                         0x0800049d   Thumb Code    36  stm32f4xx_hal_dma.o(i.HAL_DMA_Abort_IT)
-    HAL_Delay                                0x080004c1   Thumb Code    32  stm32f4xx_hal.o(i.HAL_Delay)
-    HAL_GPIO_Init                            0x080004e5   Thumb Code   394  stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init)
-    HAL_GetTick                              0x0800069d   Thumb Code     6  stm32f4xx_hal.o(i.HAL_GetTick)
-    HAL_I2C_Init                             0x080006a9   Thumb Code   376  stm32f4xx_hal_i2c.o(i.HAL_I2C_Init)
-    HAL_I2C_IsDeviceReady                    0x08000831   Thumb Code   354  stm32f4xx_hal_i2c.o(i.HAL_I2C_IsDeviceReady)
-    HAL_I2C_Mem_Read                         0x0800099d   Thumb Code   490  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Read)
-    HAL_I2C_Mem_Write                        0x08000b95   Thumb Code   294  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Write)
-    HAL_I2C_MspInit                          0x08000cc5   Thumb Code    92  i2c.o(i.HAL_I2C_MspInit)
-    HAL_IncTick                              0x08000d2d   Thumb Code    12  stm32f4xx_hal.o(i.HAL_IncTick)
-    HAL_Init                                 0x08000d3d   Thumb Code    48  stm32f4xx_hal.o(i.HAL_Init)
-    HAL_InitTick                             0x08000d71   Thumb Code    54  stm32f4xx_hal.o(i.HAL_InitTick)
-    HAL_MspInit                              0x08000db1   Thumb Code    42  stm32f4xx_hal_msp.o(i.HAL_MspInit)
-    HAL_NVIC_EnableIRQ                       0x08000de1   Thumb Code    26  stm32f4xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ)
-    HAL_NVIC_SetPriority                     0x08000dfd   Thumb Code    60  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority)
-    HAL_NVIC_SetPriorityGrouping             0x08000e3d   Thumb Code    26  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping)
-    HAL_RCC_ClockConfig                      0x08000e61   Thumb Code   288  stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig)
-    HAL_RCC_GetPCLK1Freq                     0x08000f95   Thumb Code    20  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq)
-    HAL_RCC_GetPCLK2Freq                     0x08000fb5   Thumb Code    20  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq)
-    HAL_RCC_GetSysClockFreq                  0x08000fd5   Thumb Code    88  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq)
-    HAL_RCC_OscConfig                        0x08001039   Thumb Code   840  stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig)
-    HAL_SPI_Init                             0x08001395   Thumb Code   128  stm32f4xx_hal_spi.o(i.HAL_SPI_Init)
-    HAL_SPI_MspInit                          0x08001415   Thumb Code    92  spi.o(i.HAL_SPI_MspInit)
-    HAL_SYSTICK_Callback                     0x0800147d   Thumb Code    10  wiring.o(i.HAL_SYSTICK_Callback)
-    HAL_SYSTICK_Config                       0x0800148d   Thumb Code    40  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config)
-    HAL_SYSTICK_IRQHandler                   0x080014b5   Thumb Code     8  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler)
-    HAL_UART_ErrorCallback                   0x080014bd   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_ErrorCallback)
-    HAL_UART_IRQHandler                      0x080014c1   Thumb Code   270  stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler)
-    HAL_UART_Init                            0x080015d5   Thumb Code    98  stm32f4xx_hal_uart.o(i.HAL_UART_Init)
-    HAL_UART_MspInit                         0x08001639   Thumb Code   258  usart.o(i.HAL_UART_MspInit)
-    HAL_UART_Receive_IT                      0x08001759   Thumb Code    82  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
-    HAL_UART_RxCpltCallback                  0x080017ad   Thumb Code    50  usart.o(i.HAL_UART_RxCpltCallback)
-    HAL_UART_Transmit                        0x080017f5   Thumb Code   186  stm32f4xx_hal_uart.o(i.HAL_UART_Transmit)
-    HAL_UART_TxCpltCallback                  0x080018af   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
-    HardFault_Handler                        0x080018b1   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
-    Host2SCS                                 0x080018b5   Thumb Code    26  scs.o(i.Host2SCS)
-    LockEprom                                0x08001ca5   Thumb Code     8  scscl.o(i.LockEprom)
-    MX_GPIO_Init                             0x08001cad   Thumb Code    70  gpio.o(i.MX_GPIO_Init)
-    MX_I2C1_Init                             0x08001cf9   Thumb Code    50  i2c.o(i.MX_I2C1_Init)
-    MX_SPI1_Init                             0x08001d39   Thumb Code    60  spi.o(i.MX_SPI1_Init)
-    MX_USART1_UART_Init                      0x08001d7d   Thumb Code    46  usart.o(i.MX_USART1_UART_Init)
-    MX_USART2_UART_Init                      0x08001db9   Thumb Code    48  usart.o(i.MX_USART2_UART_Init)
-    MX_USART3_UART_Init                      0x08001df1   Thumb Code    48  usart.o(i.MX_USART3_UART_Init)
-    MemManage_Handler                        0x08001e29   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
-    NMI_Handler                              0x08001e2b   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
-    PendSV_Handler                           0x08001e2d   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
-    Pos2Group                                0x08001e31   Thumb Code    12  scs_servo.o(i.Pos2Group)
-    Read                                     0x08001e41   Thumb Code   146  scs.o(i.Read)
-    ReadPos                                  0x08001ed5   Thumb Code    42  scscl.o(i.ReadPos)
-    SCS2Host                                 0x08001f35   Thumb Code    20  scs.o(i.SCS2Host)
-    SCS_Uarthandle                           0x08001f4d   Thumb Code    38  uart.o(i.SCS_Uarthandle)
-    SVC_Handler                              0x08001f81   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
-    SaveAll2ee                               0x08001fa9   Thumb Code   172  scs_servo.o(i.SaveAll2ee)
-    SavePos                                  0x0800205d   Thumb Code    62  scs_servo.o(i.SavePos)
-    SysTick_Handler                          0x080020a1   Thumb Code    14  stm32f4xx_it.o(i.SysTick_Handler)
-    SystemClock_Config                       0x080020b1   Thumb Code   142  main.o(i.SystemClock_Config)
-    SystemInit                               0x08002149   Thumb Code    22  system_stm32f4xx.o(i.SystemInit)
-    USART1_IRQHandler                        0x08002419   Thumb Code     6  stm32f4xx_it.o(i.USART1_IRQHandler)
-    USART2_IRQHandler                        0x08002425   Thumb Code     6  stm32f4xx_it.o(i.USART2_IRQHandler)
-    USART3_IRQHandler                        0x08002431   Thumb Code     6  stm32f4xx_it.o(i.USART3_IRQHandler)
-    Uart_Flush                               0x0800243d   Thumb Code    10  uart.o(i.Uart_Flush)
-    Uart_Read                                0x0800244d   Thumb Code    42  uart.o(i.Uart_Read)
-    Uart_Send                                0x08002481   Thumb Code    40  uart.o(i.Uart_Send)
-    UsageFault_Handler                       0x080024ad   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
-    User_Shell_Init                          0x080024b1   Thumb Code    18  shell_port.o(i.User_Shell_Init)
-    User_Shell_Write                         0x080024cd   Thumb Code    18  shell_port.o(i.User_Shell_Write)
-    WritePos                                 0x080024e5   Thumb Code    58  scscl.o(i.WritePos)
-    __scatterload_copy                       0x0800253f   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x0800254d   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x0800254f   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    checkHead                                0x0800255d   Thumb Code    56  scs.o(i.checkHead)
-    delay                                    0x08002595   Thumb Code    14  wiring.o(i.delay)
-    ee24_isConnected                         0x080025a9   Thumb Code    24  ee24.o(i.ee24_isConnected)
-    ee24_read                                0x080025c5   Thumb Code    56  ee24.o(i.ee24_read)
-    ee24_write                               0x08002605   Thumb Code   142  ee24.o(i.ee24_write)
-    genWrite                                 0x0800269d   Thumb Code    44  scs.o(i.genWrite)
-    main                                     0x080026c9   Thumb Code    58  main.o(i.main)
-    millis                                   0x08002715   Thumb Code     6  wiring.o(i.millis)
-    nopDelay                                 0x08002721   Thumb Code    10  scs.o(i.nopDelay)
-    rFlushSCS                                0x0800272b   Thumb Code     4  scserail.o(i.rFlushSCS)
-    readAll2ram                              0x08002731   Thumb Code   102  scs_servo.o(i.readAll2ram)
-    readSCS                                  0x0800279d   Thumb Code    64  scserail.o(i.readSCS)
-    readWord                                 0x080027e1   Thumb Code    36  scs.o(i.readWord)
-    shellBackspace                           0x08002805   Thumb Code     6  shell.o(i.shellBackspace)
-    shellCheckPermission                     0x0800280b   Thumb Code    46  shell.o(i.shellCheckPermission)
-    shellClear                               0x08002839   Thumb Code    24  shell.o(i.shellClear)
-    shellClearCommandLine                    0x08002855   Thumb Code    40  shell.o(i.shellClearCommandLine)
-    shellCmds                                0x0800287d   Thumb Code    20  shell.o(i.shellCmds)
-    shellDelete                              0x08002891   Thumb Code     8  shell.o(i.shellDelete)
-    shellDeleteByte                          0x08002899   Thumb Code   182  shell.o(i.shellDeleteByte)
-    shellDeleteCommandLine                   0x08002951   Thumb Code    24  shell.o(i.shellDeleteCommandLine)
-    shellDown                                0x0800296d   Thumb Code     8  shell.o(i.shellDown)
-    shellEnter                               0x08002975   Thumb Code    20  shell.o(i.shellEnter)
-    shellExec                                0x08002989   Thumb Code   136  shell.o(i.shellExec)
-    shellExtParsePara                        0x08002b5f   Thumb Code   160  shell_ext.o(i.shellExtParsePara)
-    shellExtRun                              0x08002bff   Thumb Code   198  shell_ext.o(i.shellExtRun)
-    shellGetCurrent                          0x08002d01   Thumb Code    36  shell.o(i.shellGetCurrent)
-    shellGetVarValue                         0x08002d29   Thumb Code    62  shell.o(i.shellGetVarValue)
-    shellHandler                             0x08002d69   Thumb Code   198  shell.o(i.shellHandler)
-    shellHelp                                0x08002e35   Thumb Code   108  shell.o(i.shellHelp)
-    shellInit                                0x08002fa9   Thumb Code   140  shell.o(i.shellInit)
-    shellInsertByte                          0x08003049   Thumb Code   190  shell.o(i.shellInsertByte)
-    shellKeys                                0x0800310d   Thumb Code    20  shell.o(i.shellKeys)
-    shellLeft                                0x08003121   Thumb Code    24  shell.o(i.shellLeft)
-    shellListCommand                         0x08003139   Thumb Code    72  shell.o(i.shellListCommand)
-    shellListItem                            0x08003185   Thumb Code   224  shell.o(i.shellListItem)
-    shellListKey                             0x08003271   Thumb Code    76  shell.o(i.shellListKey)
-    shellListUser                            0x080032c1   Thumb Code    76  shell.o(i.shellListUser)
-    shellListVar                             0x08003311   Thumb Code    74  shell.o(i.shellListVar)
-    shellNormalInput                         0x08003361   Thumb Code    16  shell.o(i.shellNormalInput)
-    shellRight                               0x080033e9   Thumb Code    24  shell.o(i.shellRight)
-    shellRunCommand                          0x08003401   Thumb Code   184  shell.o(i.shellRunCommand)
-    shellSeekCommand                         0x080034b9   Thumb Code   110  shell.o(i.shellSeekCommand)
-    shellSetVar                              0x08003589   Thumb Code    82  shell.o(i.shellSetVar)
-    shellSetVarValue                         0x080035e1   Thumb Code   108  shell.o(i.shellSetVarValue)
-    shellTab                                 0x0800373d   Thumb Code   248  shell.o(i.shellTab)
-    shellToDec                               0x08003839   Thumb Code    76  shell.o(i.shellToDec)
-    shellToHex                               0x08003885   Thumb Code    42  shell.o(i.shellToHex)
-    shellUp                                  0x080038af   Thumb Code     6  shell.o(i.shellUp)
-    shellUsers                               0x080038b5   Thumb Code    20  shell.o(i.shellUsers)
-    shellVars                                0x080038c9   Thumb Code    20  shell.o(i.shellVars)
-    shellWriteString                         0x080039b9   Thumb Code    36  shell.o(i.shellWriteString)
-    unLockEprom                              0x080039dd   Thumb Code     8  scscl.o(i.unLockEprom)
-    wFlushSCS                                0x080039e5   Thumb Code    22  scserail.o(i.wFlushSCS)
-    writeBuf                                 0x08003a05   Thumb Code   148  scs.o(i.writeBuf)
-    writeByte                                0x08003a99   Thumb Code    42  scs.o(i.writeByte)
-    writeSCS                                 0x08003ac5   Thumb Code    32  scserail.o(i.writeSCS)
-    AHBPrescTable                            0x08003aec   Data          16  system_stm32f4xx.o(.constdata)
-    APBPrescTable                            0x08003afc   Data           8  system_stm32f4xx.o(.constdata)
-    shellCmdami                              0x08003b04   Data           4  scs_servo.o(.constdata)
-    shellDescami                             0x08003b08   Data          10  scs_servo.o(.constdata)
-    shellCmdamf                              0x08003b12   Data           4  scs_servo.o(.constdata)
-    shellDescamf                             0x08003b16   Data          22  scs_servo.o(.constdata)
-    shellCmdfll                              0x08003b2c   Data           4  scs_servo.o(.constdata)
-    shellDescfll                             0x08003b30   Data          13  scs_servo.o(.constdata)
-    shellCmdsap                              0x08003b3d   Data           4  scs_servo.o(.constdata)
-    shellDescsap                             0x08003b41   Data          17  scs_servo.o(.constdata)
-    shellCmdgop                              0x08003b52   Data           4  scs_servo.o(.constdata)
-    shellDescgop                             0x08003b56   Data          10  scs_servo.o(.constdata)
-    shellCmdp2g                              0x08003b60   Data           4  scs_servo.o(.constdata)
-    shellDescp2g                             0x08003b64   Data          24  scs_servo.o(.constdata)
-    shellCmddog                              0x08003b7c   Data           4  scs_servo.o(.constdata)
-    shellDescdog                             0x08003b80   Data          12  scs_servo.o(.constdata)
-    shellCmdsa                               0x08003b8c   Data           3  scs_servo.o(.constdata)
-    shellDescsa                              0x08003b8f   Data          13  scs_servo.o(.constdata)
-    shellCmdra                               0x08003b9c   Data           3  scs_servo.o(.constdata)
-    shellDescra                              0x08003b9f   Data          14  scs_servo.o(.constdata)
-    shellCmdmi                               0x08003bad   Data           3  scs_servo.o(.constdata)
-    shellDescmi                              0x08003bb0   Data          14  scs_servo.o(.constdata)
-    shellCmdde1                              0x08003bbe   Data           4  scs_servo.o(.constdata)
-    shellDescde1                             0x08003bc2   Data          14  scs_servo.o(.constdata)
-    shellCmdwp                               0x08003bd0   Data           3  scscl.o(.constdata)
-    shellDescwp                              0x08003bd3   Data          27  scscl.o(.constdata)
-    shellCmdDefaultUser                      0x08003bee   Data           7  shell.o(.constdata)
-    shellPasswordDefaultUser                 0x08003bf5   Data           1  shell.o(.constdata)
-    shellDesDefaultUser                      0x08003bf6   Data          13  shell.o(.constdata)
-    shellCmdsetVar                           0x08003c03   Data           7  shell.o(.constdata)
-    shellDescsetVar                          0x08003c0a   Data           8  shell.o(.constdata)
-    shellDesc0x1B5B4100                      0x08003c12   Data           3  shell.o(.constdata)
-    shellDesc0x1B5B4200                      0x08003c15   Data           5  shell.o(.constdata)
-    shellDesc0x1B5B4300                      0x08003c1a   Data           6  shell.o(.constdata)
-    shellDesc0x1B5B4400                      0x08003c20   Data           5  shell.o(.constdata)
-    shellDesc0x09000000                      0x08003c25   Data           4  shell.o(.constdata)
-    shellDesc0x08000000                      0x08003c29   Data          10  shell.o(.constdata)
-    shellDesc0x7F000000                      0x08003c33   Data          10  shell.o(.constdata)
-    shellDesc0x1B5B337E                      0x08003c3d   Data           7  shell.o(.constdata)
-    shellDesc0x0A000000                      0x08003c44   Data           6  shell.o(.constdata)
-    shellDesc0x0D000000                      0x08003c4a   Data           6  shell.o(.constdata)
-    shellCmdhelp                             0x08003c50   Data           5  shell.o(.constdata)
-    shellDeschelp                            0x08003c55   Data          30  shell.o(.constdata)
-    shellCmdusers                            0x08003c73   Data           6  shell.o(.constdata)
-    shellDescusers                           0x08003c79   Data          14  shell.o(.constdata)
-    shellCmdcmds                             0x08003c87   Data           5  shell.o(.constdata)
-    shellDesccmds                            0x08003c8c   Data          13  shell.o(.constdata)
-    shellCmdvars                             0x08003c99   Data           5  shell.o(.constdata)
-    shellDescvars                            0x08003c9e   Data          13  shell.o(.constdata)
-    shellCmdkeys                             0x08003cab   Data           5  shell.o(.constdata)
-    shellDesckeys                            0x08003cb0   Data          13  shell.o(.constdata)
-    shellCmdclear                            0x08003cbd   Data           6  shell.o(.constdata)
-    shellDescclear                           0x08003cc3   Data          14  shell.o(.constdata)
-    Region$$Table$$Base                      0x08003f7c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08003f9c   Number         0  anon$$obj.o(Region$$Table)
-    shellCommand$$Base                       0x08003f9c   Number         0  scs_servo.o(shellCommand)
-    shellCommandami                          0x08003f9c   Data          16  scs_servo.o(shellCommand)
-    shellCommandamf                          0x08003fac   Data          16  scs_servo.o(shellCommand)
-    shellCommandfll                          0x08003fbc   Data          16  scs_servo.o(shellCommand)
-    shellCommandsap                          0x08003fcc   Data          16  scs_servo.o(shellCommand)
-    shellCommandgop                          0x08003fdc   Data          16  scs_servo.o(shellCommand)
-    shellCommandp2g                          0x08003fec   Data          16  scs_servo.o(shellCommand)
-    shellCommanddog                          0x08003ffc   Data          16  scs_servo.o(shellCommand)
-    shellCommandsa                           0x0800400c   Data          16  scs_servo.o(shellCommand)
-    shellCommandra                           0x0800401c   Data          16  scs_servo.o(shellCommand)
-    shellCommandmi                           0x0800402c   Data          16  scs_servo.o(shellCommand)
-    shellCommandde1                          0x0800403c   Data          16  scs_servo.o(shellCommand)
-    shellCommandwp                           0x0800404c   Data          16  scscl.o(shellCommand)
-    shellUserDefault                         0x0800405c   Data          16  shell.o(shellCommand)
-    shellCommandsetVar                       0x0800406c   Data          16  shell.o(shellCommand)
-    shellKey0x1B5B4100                       0x0800407c   Data          16  shell.o(shellCommand)
-    shellKey0x1B5B4200                       0x0800408c   Data          16  shell.o(shellCommand)
-    shellKey0x1B5B4300                       0x0800409c   Data          16  shell.o(shellCommand)
-    shellKey0x1B5B4400                       0x080040ac   Data          16  shell.o(shellCommand)
-    shellKey0x09000000                       0x080040bc   Data          16  shell.o(shellCommand)
-    shellKey0x08000000                       0x080040cc   Data          16  shell.o(shellCommand)
-    shellKey0x7F000000                       0x080040dc   Data          16  shell.o(shellCommand)
-    shellKey0x1B5B337E                       0x080040ec   Data          16  shell.o(shellCommand)
-    shellKey0x0A000000                       0x080040fc   Data          16  shell.o(shellCommand)
-    shellKey0x0D000000                       0x0800410c   Data          16  shell.o(shellCommand)
-    shellCommandhelp                         0x0800411c   Data          16  shell.o(shellCommand)
-    shellCommandusers                        0x0800412c   Data          16  shell.o(shellCommand)
-    shellCommandcmds                         0x0800413c   Data          16  shell.o(shellCommand)
-    shellCommandvars                         0x0800414c   Data          16  shell.o(shellCommand)
-    shellCommandkeys                         0x0800415c   Data          16  shell.o(shellCommand)
-    shellCommandclear                        0x0800416c   Data          16  shell.o(shellCommand)
-    shellCommand$$Limit                      0x0800417c   Number         0  shell.o(shellCommand)
+    ArmSetGroup                              0x080003f1   Thumb Code    46  scs_servo.o(i.ArmSetGroup)
+    BusFault_Handler                         0x08000429   Thumb Code     2  stm32f4xx_it.o(i.BusFault_Handler)
+    DebugMon_Handler                         0x0800042b   Thumb Code     2  stm32f4xx_it.o(i.DebugMon_Handler)
+    DoGroup                                  0x0800042d   Thumb Code    32  scs_servo.o(i.DoGroup)
+    EnableTorque                             0x08000451   Thumb Code     8  scscl.o(i.EnableTorque)
+    Error_Handler                            0x08000459   Thumb Code     4  main.o(i.Error_Handler)
+    ForceAll                                 0x0800045d   Thumb Code    36  scs_servo.o(i.ForceAll)
+    GoPos                                    0x08000481   Thumb Code    52  scs_servo.o(i.GoPos)
+    HAL_DMA_Abort_IT                         0x080004b9   Thumb Code    36  stm32f4xx_hal_dma.o(i.HAL_DMA_Abort_IT)
+    HAL_Delay                                0x080004dd   Thumb Code    32  stm32f4xx_hal.o(i.HAL_Delay)
+    HAL_GPIO_Init                            0x08000501   Thumb Code   394  stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init)
+    HAL_GetTick                              0x080006b9   Thumb Code     6  stm32f4xx_hal.o(i.HAL_GetTick)
+    HAL_I2C_Init                             0x080006c5   Thumb Code   376  stm32f4xx_hal_i2c.o(i.HAL_I2C_Init)
+    HAL_I2C_IsDeviceReady                    0x0800084d   Thumb Code   354  stm32f4xx_hal_i2c.o(i.HAL_I2C_IsDeviceReady)
+    HAL_I2C_Mem_Read                         0x080009b9   Thumb Code   490  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Read)
+    HAL_I2C_Mem_Write                        0x08000bb1   Thumb Code   294  stm32f4xx_hal_i2c.o(i.HAL_I2C_Mem_Write)
+    HAL_I2C_MspInit                          0x08000ce1   Thumb Code    92  i2c.o(i.HAL_I2C_MspInit)
+    HAL_IncTick                              0x08000d49   Thumb Code    12  stm32f4xx_hal.o(i.HAL_IncTick)
+    HAL_Init                                 0x08000d59   Thumb Code    48  stm32f4xx_hal.o(i.HAL_Init)
+    HAL_InitTick                             0x08000d8d   Thumb Code    54  stm32f4xx_hal.o(i.HAL_InitTick)
+    HAL_MspInit                              0x08000dcd   Thumb Code    42  stm32f4xx_hal_msp.o(i.HAL_MspInit)
+    HAL_NVIC_EnableIRQ                       0x08000dfd   Thumb Code    26  stm32f4xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ)
+    HAL_NVIC_SetPriority                     0x08000e19   Thumb Code    60  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority)
+    HAL_NVIC_SetPriorityGrouping             0x08000e59   Thumb Code    26  stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping)
+    HAL_RCC_ClockConfig                      0x08000e7d   Thumb Code   288  stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig)
+    HAL_RCC_GetPCLK1Freq                     0x08000fb1   Thumb Code    20  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq)
+    HAL_RCC_GetPCLK2Freq                     0x08000fd1   Thumb Code    20  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq)
+    HAL_RCC_GetSysClockFreq                  0x08000ff1   Thumb Code    88  stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq)
+    HAL_RCC_OscConfig                        0x08001055   Thumb Code   840  stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig)
+    HAL_SPI_Init                             0x080013b1   Thumb Code   128  stm32f4xx_hal_spi.o(i.HAL_SPI_Init)
+    HAL_SPI_MspInit                          0x08001431   Thumb Code    92  spi.o(i.HAL_SPI_MspInit)
+    HAL_SYSTICK_Callback                     0x08001499   Thumb Code    10  wiring.o(i.HAL_SYSTICK_Callback)
+    HAL_SYSTICK_Config                       0x080014a9   Thumb Code    40  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config)
+    HAL_SYSTICK_IRQHandler                   0x080014d1   Thumb Code     8  stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler)
+    HAL_UART_ErrorCallback                   0x080014d9   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_ErrorCallback)
+    HAL_UART_IRQHandler                      0x080014dd   Thumb Code   270  stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler)
+    HAL_UART_Init                            0x080015f1   Thumb Code    98  stm32f4xx_hal_uart.o(i.HAL_UART_Init)
+    HAL_UART_MspInit                         0x08001655   Thumb Code   258  usart.o(i.HAL_UART_MspInit)
+    HAL_UART_Receive_IT                      0x08001775   Thumb Code    82  stm32f4xx_hal_uart.o(i.HAL_UART_Receive_IT)
+    HAL_UART_RxCpltCallback                  0x080017c9   Thumb Code    50  usart.o(i.HAL_UART_RxCpltCallback)
+    HAL_UART_Transmit                        0x08001811   Thumb Code   186  stm32f4xx_hal_uart.o(i.HAL_UART_Transmit)
+    HAL_UART_TxCpltCallback                  0x080018cb   Thumb Code     2  stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback)
+    HardFault_Handler                        0x080018cd   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
+    Host2SCS                                 0x080018d1   Thumb Code    26  scs.o(i.Host2SCS)
+    LockEprom                                0x08001cc1   Thumb Code     8  scscl.o(i.LockEprom)
+    MX_GPIO_Init                             0x08001cc9   Thumb Code    70  gpio.o(i.MX_GPIO_Init)
+    MX_I2C1_Init                             0x08001d15   Thumb Code    50  i2c.o(i.MX_I2C1_Init)
+    MX_SPI1_Init                             0x08001d55   Thumb Code    60  spi.o(i.MX_SPI1_Init)
+    MX_USART1_UART_Init                      0x08001d99   Thumb Code    46  usart.o(i.MX_USART1_UART_Init)
+    MX_USART2_UART_Init                      0x08001dd5   Thumb Code    48  usart.o(i.MX_USART2_UART_Init)
+    MX_USART3_UART_Init                      0x08001e0d   Thumb Code    48  usart.o(i.MX_USART3_UART_Init)
+    MemManage_Handler                        0x08001e45   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
+    NMI_Handler                              0x08001e47   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
+    PendSV_Handler                           0x08001e49   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
+    Pos2Group                                0x08001e4d   Thumb Code    12  scs_servo.o(i.Pos2Group)
+    Read                                     0x08001e5d   Thumb Code   146  scs.o(i.Read)
+    ReadPos                                  0x08001ef1   Thumb Code    42  scscl.o(i.ReadPos)
+    SCS2Host                                 0x08001f51   Thumb Code    20  scs.o(i.SCS2Host)
+    SCS_Uarthandle                           0x08001f69   Thumb Code    38  uart.o(i.SCS_Uarthandle)
+    SVC_Handler                              0x08001f9d   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
+    SaveAll2ee                               0x08001fc5   Thumb Code   176  scs_servo.o(i.SaveAll2ee)
+    SavePos                                  0x0800207d   Thumb Code    62  scs_servo.o(i.SavePos)
+    SysTick_Handler                          0x080020c1   Thumb Code    14  stm32f4xx_it.o(i.SysTick_Handler)
+    SystemClock_Config                       0x080020d1   Thumb Code   142  main.o(i.SystemClock_Config)
+    SystemInit                               0x08002169   Thumb Code    22  system_stm32f4xx.o(i.SystemInit)
+    USART1_IRQHandler                        0x08002439   Thumb Code     6  stm32f4xx_it.o(i.USART1_IRQHandler)
+    USART2_IRQHandler                        0x08002445   Thumb Code     6  stm32f4xx_it.o(i.USART2_IRQHandler)
+    USART3_IRQHandler                        0x08002451   Thumb Code     6  stm32f4xx_it.o(i.USART3_IRQHandler)
+    Uart_Flush                               0x0800245d   Thumb Code    10  uart.o(i.Uart_Flush)
+    Uart_Read                                0x0800246d   Thumb Code    42  uart.o(i.Uart_Read)
+    Uart_Send                                0x080024a1   Thumb Code    40  uart.o(i.Uart_Send)
+    UsageFault_Handler                       0x080024cd   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
+    User_Shell_Init                          0x080024d1   Thumb Code    18  shell_port.o(i.User_Shell_Init)
+    User_Shell_Write                         0x080024ed   Thumb Code    18  shell_port.o(i.User_Shell_Write)
+    WritePos                                 0x08002505   Thumb Code    58  scscl.o(i.WritePos)
+    __scatterload_copy                       0x0800255f   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x0800256d   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x0800256f   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    checkHead                                0x0800257d   Thumb Code    56  scs.o(i.checkHead)
+    delay                                    0x080025b5   Thumb Code    14  wiring.o(i.delay)
+    ee24_isConnected                         0x080025c9   Thumb Code    24  ee24.o(i.ee24_isConnected)
+    ee24_read                                0x080025e5   Thumb Code    56  ee24.o(i.ee24_read)
+    ee24_write                               0x08002625   Thumb Code   142  ee24.o(i.ee24_write)
+    genWrite                                 0x080026bd   Thumb Code    44  scs.o(i.genWrite)
+    main                                     0x080026e9   Thumb Code    58  main.o(i.main)
+    millis                                   0x08002735   Thumb Code     6  wiring.o(i.millis)
+    nopDelay                                 0x08002741   Thumb Code    10  scs.o(i.nopDelay)
+    rFlushSCS                                0x0800274b   Thumb Code     4  scserail.o(i.rFlushSCS)
+    readAll2ram                              0x08002751   Thumb Code   182  scs_servo.o(i.readAll2ram)
+    readSCS                                  0x08002811   Thumb Code    64  scserail.o(i.readSCS)
+    readWord                                 0x08002855   Thumb Code    36  scs.o(i.readWord)
+    shellBackspace                           0x08002879   Thumb Code     6  shell.o(i.shellBackspace)
+    shellCheckPermission                     0x0800287f   Thumb Code    46  shell.o(i.shellCheckPermission)
+    shellClear                               0x080028ad   Thumb Code    24  shell.o(i.shellClear)
+    shellClearCommandLine                    0x080028c9   Thumb Code    40  shell.o(i.shellClearCommandLine)
+    shellCmds                                0x080028f1   Thumb Code    20  shell.o(i.shellCmds)
+    shellDelete                              0x08002905   Thumb Code     8  shell.o(i.shellDelete)
+    shellDeleteByte                          0x0800290d   Thumb Code   182  shell.o(i.shellDeleteByte)
+    shellDeleteCommandLine                   0x080029c5   Thumb Code    24  shell.o(i.shellDeleteCommandLine)
+    shellDown                                0x080029e1   Thumb Code     8  shell.o(i.shellDown)
+    shellEnter                               0x080029e9   Thumb Code    20  shell.o(i.shellEnter)
+    shellExec                                0x080029fd   Thumb Code   136  shell.o(i.shellExec)
+    shellExtParsePara                        0x08002bd3   Thumb Code   160  shell_ext.o(i.shellExtParsePara)
+    shellExtRun                              0x08002c73   Thumb Code   198  shell_ext.o(i.shellExtRun)
+    shellGetCurrent                          0x08002d75   Thumb Code    36  shell.o(i.shellGetCurrent)
+    shellGetVarValue                         0x08002d9d   Thumb Code    62  shell.o(i.shellGetVarValue)
+    shellHandler                             0x08002ddd   Thumb Code   198  shell.o(i.shellHandler)
+    shellHelp                                0x08002ea9   Thumb Code   108  shell.o(i.shellHelp)
+    shellInit                                0x0800301d   Thumb Code   140  shell.o(i.shellInit)
+    shellInsertByte                          0x080030bd   Thumb Code   190  shell.o(i.shellInsertByte)
+    shellKeys                                0x08003181   Thumb Code    20  shell.o(i.shellKeys)
+    shellLeft                                0x08003195   Thumb Code    24  shell.o(i.shellLeft)
+    shellListCommand                         0x080031ad   Thumb Code    72  shell.o(i.shellListCommand)
+    shellListItem                            0x080031f9   Thumb Code   224  shell.o(i.shellListItem)
+    shellListKey                             0x080032e5   Thumb Code    76  shell.o(i.shellListKey)
+    shellListUser                            0x08003335   Thumb Code    76  shell.o(i.shellListUser)
+    shellListVar                             0x08003385   Thumb Code    74  shell.o(i.shellListVar)
+    shellNormalInput                         0x080033d5   Thumb Code    16  shell.o(i.shellNormalInput)
+    shellRight                               0x0800345d   Thumb Code    24  shell.o(i.shellRight)
+    shellRunCommand                          0x08003475   Thumb Code   184  shell.o(i.shellRunCommand)
+    shellSeekCommand                         0x0800352d   Thumb Code   110  shell.o(i.shellSeekCommand)
+    shellSetVar                              0x080035fd   Thumb Code    82  shell.o(i.shellSetVar)
+    shellSetVarValue                         0x08003655   Thumb Code   108  shell.o(i.shellSetVarValue)
+    shellTab                                 0x080037b1   Thumb Code   248  shell.o(i.shellTab)
+    shellToDec                               0x080038ad   Thumb Code    76  shell.o(i.shellToDec)
+    shellToHex                               0x080038f9   Thumb Code    42  shell.o(i.shellToHex)
+    shellUp                                  0x08003923   Thumb Code     6  shell.o(i.shellUp)
+    shellUsers                               0x08003929   Thumb Code    20  shell.o(i.shellUsers)
+    shellVars                                0x0800393d   Thumb Code    20  shell.o(i.shellVars)
+    shellWriteString                         0x08003a2d   Thumb Code    36  shell.o(i.shellWriteString)
+    unLockEprom                              0x08003a51   Thumb Code     8  scscl.o(i.unLockEprom)
+    wFlushSCS                                0x08003a59   Thumb Code    22  scserail.o(i.wFlushSCS)
+    writeBuf                                 0x08003a79   Thumb Code   148  scs.o(i.writeBuf)
+    writeByte                                0x08003b0d   Thumb Code    42  scs.o(i.writeByte)
+    writeSCS                                 0x08003b39   Thumb Code    32  scserail.o(i.writeSCS)
+    AHBPrescTable                            0x08003b60   Data          16  system_stm32f4xx.o(.constdata)
+    APBPrescTable                            0x08003b70   Data           8  system_stm32f4xx.o(.constdata)
+    shellCmdami                              0x08003b78   Data           4  scs_servo.o(.constdata)
+    shellDescami                             0x08003b7c   Data          10  scs_servo.o(.constdata)
+    shellCmdamf                              0x08003b86   Data           4  scs_servo.o(.constdata)
+    shellDescamf                             0x08003b8a   Data          22  scs_servo.o(.constdata)
+    shellCmdfll                              0x08003ba0   Data           4  scs_servo.o(.constdata)
+    shellDescfll                             0x08003ba4   Data          13  scs_servo.o(.constdata)
+    shellCmdsap                              0x08003bb1   Data           4  scs_servo.o(.constdata)
+    shellDescsap                             0x08003bb5   Data          17  scs_servo.o(.constdata)
+    shellCmdgop                              0x08003bc6   Data           4  scs_servo.o(.constdata)
+    shellDescgop                             0x08003bca   Data          10  scs_servo.o(.constdata)
+    shellCmdp2g                              0x08003bd4   Data           4  scs_servo.o(.constdata)
+    shellDescp2g                             0x08003bd8   Data          24  scs_servo.o(.constdata)
+    shellCmddog                              0x08003bf0   Data           4  scs_servo.o(.constdata)
+    shellDescdog                             0x08003bf4   Data          12  scs_servo.o(.constdata)
+    shellCmdsa                               0x08003c00   Data           3  scs_servo.o(.constdata)
+    shellDescsa                              0x08003c03   Data          13  scs_servo.o(.constdata)
+    shellCmdra                               0x08003c10   Data           3  scs_servo.o(.constdata)
+    shellDescra                              0x08003c13   Data          14  scs_servo.o(.constdata)
+    shellCmdmi                               0x08003c21   Data           3  scs_servo.o(.constdata)
+    shellDescmi                              0x08003c24   Data          14  scs_servo.o(.constdata)
+    shellCmdde1                              0x08003c32   Data           4  scs_servo.o(.constdata)
+    shellDescde1                             0x08003c36   Data          14  scs_servo.o(.constdata)
+    shellCmdwp                               0x08003c44   Data           3  scscl.o(.constdata)
+    shellDescwp                              0x08003c47   Data          27  scscl.o(.constdata)
+    shellCmdDefaultUser                      0x08003c62   Data           7  shell.o(.constdata)
+    shellPasswordDefaultUser                 0x08003c69   Data           1  shell.o(.constdata)
+    shellDesDefaultUser                      0x08003c6a   Data          13  shell.o(.constdata)
+    shellCmdsetVar                           0x08003c77   Data           7  shell.o(.constdata)
+    shellDescsetVar                          0x08003c7e   Data           8  shell.o(.constdata)
+    shellDesc0x1B5B4100                      0x08003c86   Data           3  shell.o(.constdata)
+    shellDesc0x1B5B4200                      0x08003c89   Data           5  shell.o(.constdata)
+    shellDesc0x1B5B4300                      0x08003c8e   Data           6  shell.o(.constdata)
+    shellDesc0x1B5B4400                      0x08003c94   Data           5  shell.o(.constdata)
+    shellDesc0x09000000                      0x08003c99   Data           4  shell.o(.constdata)
+    shellDesc0x08000000                      0x08003c9d   Data          10  shell.o(.constdata)
+    shellDesc0x7F000000                      0x08003ca7   Data          10  shell.o(.constdata)
+    shellDesc0x1B5B337E                      0x08003cb1   Data           7  shell.o(.constdata)
+    shellDesc0x0A000000                      0x08003cb8   Data           6  shell.o(.constdata)
+    shellDesc0x0D000000                      0x08003cbe   Data           6  shell.o(.constdata)
+    shellCmdhelp                             0x08003cc4   Data           5  shell.o(.constdata)
+    shellDeschelp                            0x08003cc9   Data          30  shell.o(.constdata)
+    shellCmdusers                            0x08003ce7   Data           6  shell.o(.constdata)
+    shellDescusers                           0x08003ced   Data          14  shell.o(.constdata)
+    shellCmdcmds                             0x08003cfb   Data           5  shell.o(.constdata)
+    shellDesccmds                            0x08003d00   Data          13  shell.o(.constdata)
+    shellCmdvars                             0x08003d0d   Data           5  shell.o(.constdata)
+    shellDescvars                            0x08003d12   Data          13  shell.o(.constdata)
+    shellCmdkeys                             0x08003d1f   Data           5  shell.o(.constdata)
+    shellDesckeys                            0x08003d24   Data          13  shell.o(.constdata)
+    shellCmdclear                            0x08003d31   Data           6  shell.o(.constdata)
+    shellDescclear                           0x08003d37   Data          14  shell.o(.constdata)
+    Region$$Table$$Base                      0x08003ff0   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08004010   Number         0  anon$$obj.o(Region$$Table)
+    shellCommand$$Base                       0x08004010   Number         0  scs_servo.o(shellCommand)
+    shellCommandami                          0x08004010   Data          16  scs_servo.o(shellCommand)
+    shellCommandamf                          0x08004020   Data          16  scs_servo.o(shellCommand)
+    shellCommandfll                          0x08004030   Data          16  scs_servo.o(shellCommand)
+    shellCommandsap                          0x08004040   Data          16  scs_servo.o(shellCommand)
+    shellCommandgop                          0x08004050   Data          16  scs_servo.o(shellCommand)
+    shellCommandp2g                          0x08004060   Data          16  scs_servo.o(shellCommand)
+    shellCommanddog                          0x08004070   Data          16  scs_servo.o(shellCommand)
+    shellCommandsa                           0x08004080   Data          16  scs_servo.o(shellCommand)
+    shellCommandra                           0x08004090   Data          16  scs_servo.o(shellCommand)
+    shellCommandmi                           0x080040a0   Data          16  scs_servo.o(shellCommand)
+    shellCommandde1                          0x080040b0   Data          16  scs_servo.o(shellCommand)
+    shellCommandwp                           0x080040c0   Data          16  scscl.o(shellCommand)
+    shellUserDefault                         0x080040d0   Data          16  shell.o(shellCommand)
+    shellCommandsetVar                       0x080040e0   Data          16  shell.o(shellCommand)
+    shellKey0x1B5B4100                       0x080040f0   Data          16  shell.o(shellCommand)
+    shellKey0x1B5B4200                       0x08004100   Data          16  shell.o(shellCommand)
+    shellKey0x1B5B4300                       0x08004110   Data          16  shell.o(shellCommand)
+    shellKey0x1B5B4400                       0x08004120   Data          16  shell.o(shellCommand)
+    shellKey0x09000000                       0x08004130   Data          16  shell.o(shellCommand)
+    shellKey0x08000000                       0x08004140   Data          16  shell.o(shellCommand)
+    shellKey0x7F000000                       0x08004150   Data          16  shell.o(shellCommand)
+    shellKey0x1B5B337E                       0x08004160   Data          16  shell.o(shellCommand)
+    shellKey0x0A000000                       0x08004170   Data          16  shell.o(shellCommand)
+    shellKey0x0D000000                       0x08004180   Data          16  shell.o(shellCommand)
+    shellCommandhelp                         0x08004190   Data          16  shell.o(shellCommand)
+    shellCommandusers                        0x080041a0   Data          16  shell.o(shellCommand)
+    shellCommandcmds                         0x080041b0   Data          16  shell.o(shellCommand)
+    shellCommandvars                         0x080041c0   Data          16  shell.o(shellCommand)
+    shellCommandkeys                         0x080041d0   Data          16  shell.o(shellCommand)
+    shellCommandclear                        0x080041e0   Data          16  shell.o(shellCommand)
+    shellCommand$$Limit                      0x080041f0   Number         0  shell.o(shellCommand)
     uwTickFreq                               0x20000000   Data           1  stm32f4xx_hal.o(.data)
     uwTickPrio                               0x20000004   Data           4  stm32f4xx_hal.o(.data)
     uwTick                                   0x20000008   Data           4  stm32f4xx_hal.o(.data)
@@ -2194,9 +2194,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00004204, Max: 0x00080000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00004278, Max: 0x00080000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000417c, Max: 0x00080000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000041f0, Max: 0x00080000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2225,273 +2225,273 @@ Memory Map of the image
     0x08000388   0x08000388   0x00000022   Code   RO         2816    i.ArmGoMiddle       scs_servo.o
     0x080003aa   0x080003aa   0x00000002   PAD
     0x080003ac   0x080003ac   0x00000044   Code   RO         2817    i.ArmInit           scs_servo.o
-    0x080003f0   0x080003f0   0x0000001c   Code   RO         2818    i.ArmSetGroup       scs_servo.o
-    0x0800040c   0x0800040c   0x00000002   Code   RO          362    i.BusFault_Handler  stm32f4xx_it.o
-    0x0800040e   0x0800040e   0x00000002   Code   RO          363    i.DebugMon_Handler  stm32f4xx_it.o
-    0x08000410   0x08000410   0x00000024   Code   RO         2819    i.DoGroup           scs_servo.o
-    0x08000434   0x08000434   0x00000008   Code   RO         3084    i.EnableTorque      scscl.o
-    0x0800043c   0x0800043c   0x00000004   Code   RO           13    i.Error_Handler     main.o
-    0x08000440   0x08000440   0x00000024   Code   RO         2820    i.ForceAll          scs_servo.o
-    0x08000464   0x08000464   0x00000038   Code   RO         2821    i.GoPos             scs_servo.o
-    0x0800049c   0x0800049c   0x00000024   Code   RO         1424    i.HAL_DMA_Abort_IT  stm32f4xx_hal_dma.o
-    0x080004c0   0x080004c0   0x00000024   Code   RO         1842    i.HAL_Delay         stm32f4xx_hal.o
-    0x080004e4   0x080004e4   0x000001b8   Code   RO         1316    i.HAL_GPIO_Init     stm32f4xx_hal_gpio.o
-    0x0800069c   0x0800069c   0x0000000c   Code   RO         1848    i.HAL_GetTick       stm32f4xx_hal.o
-    0x080006a8   0x080006a8   0x00000188   Code   RO          527    i.HAL_I2C_Init      stm32f4xx_hal_i2c.o
-    0x08000830   0x08000830   0x0000016c   Code   RO          528    i.HAL_I2C_IsDeviceReady  stm32f4xx_hal_i2c.o
-    0x0800099c   0x0800099c   0x000001f8   Code   RO          545    i.HAL_I2C_Mem_Read  stm32f4xx_hal_i2c.o
-    0x08000b94   0x08000b94   0x00000130   Code   RO          548    i.HAL_I2C_Mem_Write  stm32f4xx_hal_i2c.o
-    0x08000cc4   0x08000cc4   0x00000068   Code   RO          219    i.HAL_I2C_MspInit   i2c.o
-    0x08000d2c   0x08000d2c   0x00000010   Code   RO         1854    i.HAL_IncTick       stm32f4xx_hal.o
-    0x08000d3c   0x08000d3c   0x00000034   Code   RO         1855    i.HAL_Init          stm32f4xx_hal.o
-    0x08000d70   0x08000d70   0x00000040   Code   RO         1856    i.HAL_InitTick      stm32f4xx_hal.o
-    0x08000db0   0x08000db0   0x00000030   Code   RO          459    i.HAL_MspInit       stm32f4xx_hal_msp.o
-    0x08000de0   0x08000de0   0x0000001a   Code   RO         1705    i.HAL_NVIC_EnableIRQ  stm32f4xx_hal_cortex.o
-    0x08000dfa   0x08000dfa   0x00000002   PAD
-    0x08000dfc   0x08000dfc   0x00000040   Code   RO         1711    i.HAL_NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x08000e3c   0x08000e3c   0x00000024   Code   RO         1712    i.HAL_NVIC_SetPriorityGrouping  stm32f4xx_hal_cortex.o
-    0x08000e60   0x08000e60   0x00000134   Code   RO          962    i.HAL_RCC_ClockConfig  stm32f4xx_hal_rcc.o
-    0x08000f94   0x08000f94   0x00000020   Code   RO          969    i.HAL_RCC_GetPCLK1Freq  stm32f4xx_hal_rcc.o
-    0x08000fb4   0x08000fb4   0x00000020   Code   RO          970    i.HAL_RCC_GetPCLK2Freq  stm32f4xx_hal_rcc.o
-    0x08000fd4   0x08000fd4   0x00000064   Code   RO          971    i.HAL_RCC_GetSysClockFreq  stm32f4xx_hal_rcc.o
-    0x08001038   0x08001038   0x0000035c   Code   RO          974    i.HAL_RCC_OscConfig  stm32f4xx_hal_rcc.o
-    0x08001394   0x08001394   0x00000080   Code   RO         2104    i.HAL_SPI_Init      stm32f4xx_hal_spi.o
-    0x08001414   0x08001414   0x00000068   Code   RO          261    i.HAL_SPI_MspInit   spi.o
-    0x0800147c   0x0800147c   0x00000010   Code   RO         3348    i.HAL_SYSTICK_Callback  wiring.o
-    0x0800148c   0x0800148c   0x00000028   Code   RO         1716    i.HAL_SYSTICK_Config  stm32f4xx_hal_cortex.o
-    0x080014b4   0x080014b4   0x00000008   Code   RO         1717    i.HAL_SYSTICK_IRQHandler  stm32f4xx_hal_cortex.o
-    0x080014bc   0x080014bc   0x00000002   Code   RO         2472    i.HAL_UART_ErrorCallback  stm32f4xx_hal_uart.o
-    0x080014be   0x080014be   0x00000002   PAD
-    0x080014c0   0x080014c0   0x00000114   Code   RO         2475    i.HAL_UART_IRQHandler  stm32f4xx_hal_uart.o
-    0x080015d4   0x080015d4   0x00000062   Code   RO         2476    i.HAL_UART_Init     stm32f4xx_hal_uart.o
-    0x08001636   0x08001636   0x00000002   PAD
-    0x08001638   0x08001638   0x00000120   Code   RO          303    i.HAL_UART_MspInit  usart.o
-    0x08001758   0x08001758   0x00000052   Code   RO         2481    i.HAL_UART_Receive_IT  stm32f4xx_hal_uart.o
-    0x080017aa   0x080017aa   0x00000002   PAD
-    0x080017ac   0x080017ac   0x00000048   Code   RO          304    i.HAL_UART_RxCpltCallback  usart.o
-    0x080017f4   0x080017f4   0x000000ba   Code   RO         2484    i.HAL_UART_Transmit  stm32f4xx_hal_uart.o
-    0x080018ae   0x080018ae   0x00000002   Code   RO         2487    i.HAL_UART_TxCpltCallback  stm32f4xx_hal_uart.o
-    0x080018b0   0x080018b0   0x00000002   Code   RO          364    i.HardFault_Handler  stm32f4xx_it.o
-    0x080018b2   0x080018b2   0x00000002   PAD
-    0x080018b4   0x080018b4   0x00000020   Code   RO         2974    i.Host2SCS          scs.o
-    0x080018d4   0x080018d4   0x0000002e   Code   RO          569    i.I2C_IsAcknowledgeFailed  stm32f4xx_hal_i2c.o
-    0x08001902   0x08001902   0x00000002   PAD
-    0x08001904   0x08001904   0x000000fc   Code   RO          579    i.I2C_RequestMemoryRead  stm32f4xx_hal_i2c.o
-    0x08001a00   0x08001a00   0x000000a8   Code   RO          580    i.I2C_RequestMemoryWrite  stm32f4xx_hal_i2c.o
-    0x08001aa8   0x08001aa8   0x0000004c   Code   RO          583    i.I2C_WaitOnBTFFlagUntilTimeout  stm32f4xx_hal_i2c.o
-    0x08001af4   0x08001af4   0x00000068   Code   RO          584    i.I2C_WaitOnFlagUntilTimeout  stm32f4xx_hal_i2c.o
-    0x08001b5c   0x08001b5c   0x00000096   Code   RO          585    i.I2C_WaitOnMasterAddressFlagUntilTimeout  stm32f4xx_hal_i2c.o
-    0x08001bf2   0x08001bf2   0x00000066   Code   RO          586    i.I2C_WaitOnRXNEFlagUntilTimeout  stm32f4xx_hal_i2c.o
-    0x08001c58   0x08001c58   0x0000004c   Code   RO          587    i.I2C_WaitOnTXEFlagUntilTimeout  stm32f4xx_hal_i2c.o
-    0x08001ca4   0x08001ca4   0x00000008   Code   RO         3086    i.LockEprom         scscl.o
-    0x08001cac   0x08001cac   0x0000004c   Code   RO          194    i.MX_GPIO_Init      gpio.o
-    0x08001cf8   0x08001cf8   0x00000040   Code   RO          220    i.MX_I2C1_Init      i2c.o
-    0x08001d38   0x08001d38   0x00000044   Code   RO          262    i.MX_SPI1_Init      spi.o
-    0x08001d7c   0x08001d7c   0x0000003c   Code   RO          305    i.MX_USART1_UART_Init  usart.o
-    0x08001db8   0x08001db8   0x00000038   Code   RO          306    i.MX_USART2_UART_Init  usart.o
-    0x08001df0   0x08001df0   0x00000038   Code   RO          307    i.MX_USART3_UART_Init  usart.o
-    0x08001e28   0x08001e28   0x00000002   Code   RO          365    i.MemManage_Handler  stm32f4xx_it.o
-    0x08001e2a   0x08001e2a   0x00000002   Code   RO          366    i.NMI_Handler       stm32f4xx_it.o
-    0x08001e2c   0x08001e2c   0x00000002   Code   RO          367    i.PendSV_Handler    stm32f4xx_it.o
-    0x08001e2e   0x08001e2e   0x00000002   PAD
-    0x08001e30   0x08001e30   0x00000010   Code   RO         2822    i.Pos2Group         scs_servo.o
-    0x08001e40   0x08001e40   0x00000092   Code   RO         2976    i.Read              scs.o
-    0x08001ed2   0x08001ed2   0x00000002   PAD
-    0x08001ed4   0x08001ed4   0x00000034   Code   RO         3091    i.ReadPos           scscl.o
-    0x08001f08   0x08001f08   0x0000002a   Code   RO         2823    i.Readee16          scs_servo.o
-    0x08001f32   0x08001f32   0x00000002   PAD
-    0x08001f34   0x08001f34   0x00000018   Code   RO         2977    i.SCS2Host          scs.o
-    0x08001f4c   0x08001f4c   0x00000034   Code   RO         3292    i.SCS_Uarthandle    uart.o
-    0x08001f80   0x08001f80   0x00000002   Code   RO          368    i.SVC_Handler       stm32f4xx_it.o
-    0x08001f82   0x08001f82   0x00000024   Code   RO         2824    i.Save2ee16         scs_servo.o
-    0x08001fa6   0x08001fa6   0x00000002   PAD
-    0x08001fa8   0x08001fa8   0x000000b4   Code   RO         2825    i.SaveAll2ee        scs_servo.o
-    0x0800205c   0x0800205c   0x00000044   Code   RO         2826    i.SavePos           scs_servo.o
-    0x080020a0   0x080020a0   0x0000000e   Code   RO          369    i.SysTick_Handler   stm32f4xx_it.o
-    0x080020ae   0x080020ae   0x00000002   PAD
-    0x080020b0   0x080020b0   0x00000098   Code   RO           14    i.SystemClock_Config  main.o
-    0x08002148   0x08002148   0x0000001c   Code   RO         2778    i.SystemInit        system_stm32f4xx.o
-    0x08002164   0x08002164   0x00000010   Code   RO         2489    i.UART_DMAAbortOnError  stm32f4xx_hal_uart.o
-    0x08002174   0x08002174   0x0000001c   Code   RO         2499    i.UART_EndRxTransfer  stm32f4xx_hal_uart.o
-    0x08002190   0x08002190   0x00000096   Code   RO         2501    i.UART_Receive_IT   stm32f4xx_hal_uart.o
-    0x08002226   0x08002226   0x00000002   PAD
-    0x08002228   0x08002228   0x00000128   Code   RO         2502    i.UART_SetConfig    stm32f4xx_hal_uart.o
-    0x08002350   0x08002350   0x00000062   Code   RO         2503    i.UART_Transmit_IT  stm32f4xx_hal_uart.o
-    0x080023b2   0x080023b2   0x00000064   Code   RO         2504    i.UART_WaitOnFlagUntilTimeout  stm32f4xx_hal_uart.o
-    0x08002416   0x08002416   0x00000002   PAD
-    0x08002418   0x08002418   0x0000000c   Code   RO          370    i.USART1_IRQHandler  stm32f4xx_it.o
-    0x08002424   0x08002424   0x0000000c   Code   RO          371    i.USART2_IRQHandler  stm32f4xx_it.o
-    0x08002430   0x08002430   0x0000000c   Code   RO          372    i.USART3_IRQHandler  stm32f4xx_it.o
-    0x0800243c   0x0800243c   0x00000010   Code   RO         3293    i.Uart_Flush        uart.o
-    0x0800244c   0x0800244c   0x00000034   Code   RO         3294    i.Uart_Read         uart.o
-    0x08002480   0x08002480   0x0000002c   Code   RO         3295    i.Uart_Send         uart.o
-    0x080024ac   0x080024ac   0x00000002   Code   RO          373    i.UsageFault_Handler  stm32f4xx_it.o
-    0x080024ae   0x080024ae   0x00000002   PAD
-    0x080024b0   0x080024b0   0x0000001c   Code   RO         3818    i.User_Shell_Init   shell_port.o
-    0x080024cc   0x080024cc   0x00000018   Code   RO         3819    i.User_Shell_Write  shell_port.o
-    0x080024e4   0x080024e4   0x0000003a   Code   RO         3099    i.WritePos          scscl.o
-    0x0800251e   0x0800251e   0x00000020   Code   RO         1718    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
-    0x0800253e   0x0800253e   0x0000000e   Code   RO         3998    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0800254c   0x0800254c   0x00000002   Code   RO         3999    i.__scatterload_null  mc_w.l(handlers.o)
-    0x0800254e   0x0800254e   0x0000000e   Code   RO         4000    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x0800255c   0x0800255c   0x00000038   Code   RO         2978    i.checkHead         scs.o
-    0x08002594   0x08002594   0x00000014   Code   RO         3349    i.delay             wiring.o
-    0x080025a8   0x080025a8   0x0000001c   Code   RO         3856    i.ee24_isConnected  ee24.o
-    0x080025c4   0x080025c4   0x00000040   Code   RO         3857    i.ee24_read         ee24.o
-    0x08002604   0x08002604   0x00000098   Code   RO         3858    i.ee24_write        ee24.o
-    0x0800269c   0x0800269c   0x0000002c   Code   RO         2979    i.genWrite          scs.o
-    0x080026c8   0x080026c8   0x0000004c   Code   RO           15    i.main              main.o
-    0x08002714   0x08002714   0x0000000c   Code   RO         3350    i.millis            wiring.o
-    0x08002720   0x08002720   0x0000000a   Code   RO         2980    i.nopDelay          scs.o
-    0x0800272a   0x0800272a   0x00000004   Code   RO         3239    i.rFlushSCS         scserail.o
-    0x0800272e   0x0800272e   0x00000002   PAD
-    0x08002730   0x08002730   0x0000006c   Code   RO         2827    i.readAll2ram       scs_servo.o
-    0x0800279c   0x0800279c   0x00000044   Code   RO         3240    i.readSCS           scserail.o
-    0x080027e0   0x080027e0   0x00000024   Code   RO         2982    i.readWord          scs.o
-    0x08002804   0x08002804   0x00000006   Code   RO         3423    i.shellBackspace    shell.o
-    0x0800280a   0x0800280a   0x0000002e   Code   RO         3424    i.shellCheckPermission  shell.o
-    0x08002838   0x08002838   0x0000001c   Code   RO         3425    i.shellClear        shell.o
-    0x08002854   0x08002854   0x00000028   Code   RO         3426    i.shellClearCommandLine  shell.o
-    0x0800287c   0x0800287c   0x00000014   Code   RO         3427    i.shellCmds         shell.o
-    0x08002890   0x08002890   0x00000008   Code   RO         3428    i.shellDelete       shell.o
-    0x08002898   0x08002898   0x000000b6   Code   RO         3429    i.shellDeleteByte   shell.o
-    0x0800294e   0x0800294e   0x00000002   PAD
-    0x08002950   0x08002950   0x0000001c   Code   RO         3430    i.shellDeleteCommandLine  shell.o
-    0x0800296c   0x0800296c   0x00000008   Code   RO         3431    i.shellDown         shell.o
-    0x08002974   0x08002974   0x00000014   Code   RO         3432    i.shellEnter        shell.o
-    0x08002988   0x08002988   0x00000090   Code   RO         3433    i.shellExec         shell.o
-    0x08002a18   0x08002a18   0x0000003c   Code   RO         3787    i.shellExtParseChar  shell_ext.o
-    0x08002a54   0x08002a54   0x0000010a   Code   RO         3788    i.shellExtParseNumber  shell_ext.o
-    0x08002b5e   0x08002b5e   0x000000a0   Code   RO         3789    i.shellExtParsePara  shell_ext.o
-    0x08002bfe   0x08002bfe   0x000000c6   Code   RO         3790    i.shellExtRun       shell_ext.o
-    0x08002cc4   0x08002cc4   0x00000004   Code   RO         3434    i.shellGetCommandDesc  shell.o
-    0x08002cc8   0x08002cc8   0x00000038   Code   RO         3435    i.shellGetCommandName  shell.o
-    0x08002d00   0x08002d00   0x00000028   Code   RO         3436    i.shellGetCurrent   shell.o
-    0x08002d28   0x08002d28   0x0000003e   Code   RO         3437    i.shellGetVarValue  shell.o
-    0x08002d66   0x08002d66   0x00000002   PAD
-    0x08002d68   0x08002d68   0x000000cc   Code   RO         3438    i.shellHandler      shell.o
-    0x08002e34   0x08002e34   0x00000074   Code   RO         3439    i.shellHelp         shell.o
-    0x08002ea8   0x08002ea8   0x00000098   Code   RO         3440    i.shellHistory      shell.o
-    0x08002f40   0x08002f40   0x00000068   Code   RO         3441    i.shellHistoryAdd   shell.o
-    0x08002fa8   0x08002fa8   0x000000a0   Code   RO         3442    i.shellInit         shell.o
-    0x08003048   0x08003048   0x000000c4   Code   RO         3443    i.shellInsertByte   shell.o
-    0x0800310c   0x0800310c   0x00000014   Code   RO         3444    i.shellKeys         shell.o
-    0x08003120   0x08003120   0x00000018   Code   RO         3445    i.shellLeft         shell.o
-    0x08003138   0x08003138   0x0000004c   Code   RO         3447    i.shellListCommand  shell.o
-    0x08003184   0x08003184   0x000000ec   Code   RO         3448    i.shellListItem     shell.o
-    0x08003270   0x08003270   0x00000050   Code   RO         3449    i.shellListKey      shell.o
-    0x080032c0   0x080032c0   0x00000050   Code   RO         3450    i.shellListUser     shell.o
-    0x08003310   0x08003310   0x00000050   Code   RO         3451    i.shellListVar      shell.o
-    0x08003360   0x08003360   0x00000010   Code   RO         3452    i.shellNormalInput  shell.o
-    0x08003370   0x08003370   0x00000078   Code   RO         3453    i.shellParserParam  shell.o
-    0x080033e8   0x080033e8   0x00000018   Code   RO         3455    i.shellRight        shell.o
-    0x08003400   0x08003400   0x000000b8   Code   RO         3457    i.shellRunCommand   shell.o
-    0x080034b8   0x080034b8   0x0000006e   Code   RO         3458    i.shellSeekCommand  shell.o
-    0x08003526   0x08003526   0x00000002   PAD
-    0x08003528   0x08003528   0x00000060   Code   RO         3459    i.shellSetUser      shell.o
-    0x08003588   0x08003588   0x00000058   Code   RO         3460    i.shellSetVar       shell.o
-    0x080035e0   0x080035e0   0x00000070   Code   RO         3461    i.shellSetVarValue  shell.o
-    0x08003650   0x08003650   0x000000b0   Code   RO         3462    i.shellShowVar      shell.o
-    0x08003700   0x08003700   0x00000024   Code   RO         3463    i.shellStringCompare  shell.o
-    0x08003724   0x08003724   0x00000018   Code   RO         3464    i.shellStringCopy   shell.o
-    0x0800373c   0x0800373c   0x000000fc   Code   RO         3465    i.shellTab          shell.o
-    0x08003838   0x08003838   0x0000004c   Code   RO         3467    i.shellToDec        shell.o
-    0x08003884   0x08003884   0x0000002a   Code   RO         3468    i.shellToHex        shell.o
-    0x080038ae   0x080038ae   0x00000006   Code   RO         3469    i.shellUp           shell.o
-    0x080038b4   0x080038b4   0x00000014   Code   RO         3470    i.shellUsers        shell.o
-    0x080038c8   0x080038c8   0x00000014   Code   RO         3471    i.shellVars         shell.o
-    0x080038dc   0x080038dc   0x0000005c   Code   RO         3472    i.shellWriteCommandLine  shell.o
-    0x08003938   0x08003938   0x00000080   Code   RO         3473    i.shellWriteReturnValue  shell.o
-    0x080039b8   0x080039b8   0x00000024   Code   RO         3474    i.shellWriteString  shell.o
-    0x080039dc   0x080039dc   0x00000008   Code   RO         3101    i.unLockEprom       scscl.o
-    0x080039e4   0x080039e4   0x00000020   Code   RO         3241    i.wFlushSCS         scserail.o
-    0x08003a04   0x08003a04   0x00000094   Code   RO         2986    i.writeBuf          scs.o
-    0x08003a98   0x08003a98   0x0000002a   Code   RO         2987    i.writeByte         scs.o
-    0x08003ac2   0x08003ac2   0x00000002   PAD
-    0x08003ac4   0x08003ac4   0x00000028   Code   RO         3242    i.writeSCS          scserail.o
-    0x08003aec   0x08003aec   0x00000010   Data   RO         2779    .constdata          system_stm32f4xx.o
-    0x08003afc   0x08003afc   0x00000008   Data   RO         2780    .constdata          system_stm32f4xx.o
-    0x08003b04   0x08003b04   0x00000004   Data   RO         2829    .constdata          scs_servo.o
-    0x08003b08   0x08003b08   0x0000000a   Data   RO         2830    .constdata          scs_servo.o
-    0x08003b12   0x08003b12   0x00000004   Data   RO         2831    .constdata          scs_servo.o
-    0x08003b16   0x08003b16   0x00000016   Data   RO         2832    .constdata          scs_servo.o
-    0x08003b2c   0x08003b2c   0x00000004   Data   RO         2833    .constdata          scs_servo.o
-    0x08003b30   0x08003b30   0x0000000d   Data   RO         2834    .constdata          scs_servo.o
-    0x08003b3d   0x08003b3d   0x00000004   Data   RO         2835    .constdata          scs_servo.o
-    0x08003b41   0x08003b41   0x00000011   Data   RO         2836    .constdata          scs_servo.o
-    0x08003b52   0x08003b52   0x00000004   Data   RO         2837    .constdata          scs_servo.o
-    0x08003b56   0x08003b56   0x0000000a   Data   RO         2838    .constdata          scs_servo.o
-    0x08003b60   0x08003b60   0x00000004   Data   RO         2839    .constdata          scs_servo.o
-    0x08003b64   0x08003b64   0x00000018   Data   RO         2840    .constdata          scs_servo.o
-    0x08003b7c   0x08003b7c   0x00000004   Data   RO         2841    .constdata          scs_servo.o
-    0x08003b80   0x08003b80   0x0000000c   Data   RO         2842    .constdata          scs_servo.o
-    0x08003b8c   0x08003b8c   0x00000003   Data   RO         2843    .constdata          scs_servo.o
-    0x08003b8f   0x08003b8f   0x0000000d   Data   RO         2844    .constdata          scs_servo.o
-    0x08003b9c   0x08003b9c   0x00000003   Data   RO         2845    .constdata          scs_servo.o
-    0x08003b9f   0x08003b9f   0x0000000e   Data   RO         2846    .constdata          scs_servo.o
-    0x08003bad   0x08003bad   0x00000003   Data   RO         2847    .constdata          scs_servo.o
-    0x08003bb0   0x08003bb0   0x0000000e   Data   RO         2848    .constdata          scs_servo.o
-    0x08003bbe   0x08003bbe   0x00000004   Data   RO         2849    .constdata          scs_servo.o
-    0x08003bc2   0x08003bc2   0x0000000e   Data   RO         2850    .constdata          scs_servo.o
-    0x08003bd0   0x08003bd0   0x00000003   Data   RO         3103    .constdata          scscl.o
-    0x08003bd3   0x08003bd3   0x0000001b   Data   RO         3104    .constdata          scscl.o
-    0x08003bee   0x08003bee   0x00000007   Data   RO         3476    .constdata          shell.o
-    0x08003bf5   0x08003bf5   0x00000001   Data   RO         3477    .constdata          shell.o
-    0x08003bf6   0x08003bf6   0x0000000d   Data   RO         3478    .constdata          shell.o
-    0x08003c03   0x08003c03   0x00000007   Data   RO         3479    .constdata          shell.o
-    0x08003c0a   0x08003c0a   0x00000008   Data   RO         3480    .constdata          shell.o
-    0x08003c12   0x08003c12   0x00000003   Data   RO         3481    .constdata          shell.o
-    0x08003c15   0x08003c15   0x00000005   Data   RO         3482    .constdata          shell.o
-    0x08003c1a   0x08003c1a   0x00000006   Data   RO         3483    .constdata          shell.o
-    0x08003c20   0x08003c20   0x00000005   Data   RO         3484    .constdata          shell.o
-    0x08003c25   0x08003c25   0x00000004   Data   RO         3485    .constdata          shell.o
-    0x08003c29   0x08003c29   0x0000000a   Data   RO         3486    .constdata          shell.o
-    0x08003c33   0x08003c33   0x0000000a   Data   RO         3487    .constdata          shell.o
-    0x08003c3d   0x08003c3d   0x00000007   Data   RO         3488    .constdata          shell.o
-    0x08003c44   0x08003c44   0x00000006   Data   RO         3489    .constdata          shell.o
-    0x08003c4a   0x08003c4a   0x00000006   Data   RO         3490    .constdata          shell.o
-    0x08003c50   0x08003c50   0x00000005   Data   RO         3491    .constdata          shell.o
-    0x08003c55   0x08003c55   0x0000001e   Data   RO         3492    .constdata          shell.o
-    0x08003c73   0x08003c73   0x00000006   Data   RO         3493    .constdata          shell.o
-    0x08003c79   0x08003c79   0x0000000e   Data   RO         3494    .constdata          shell.o
-    0x08003c87   0x08003c87   0x00000005   Data   RO         3495    .constdata          shell.o
-    0x08003c8c   0x08003c8c   0x0000000d   Data   RO         3496    .constdata          shell.o
-    0x08003c99   0x08003c99   0x00000005   Data   RO         3497    .constdata          shell.o
-    0x08003c9e   0x08003c9e   0x0000000d   Data   RO         3498    .constdata          shell.o
-    0x08003cab   0x08003cab   0x00000005   Data   RO         3499    .constdata          shell.o
-    0x08003cb0   0x08003cb0   0x0000000d   Data   RO         3500    .constdata          shell.o
-    0x08003cbd   0x08003cbd   0x00000006   Data   RO         3501    .constdata          shell.o
-    0x08003cc3   0x08003cc3   0x0000000e   Data   RO         3502    .constdata          shell.o
-    0x08003cd1   0x08003cd1   0x00000003   PAD
-    0x08003cd4   0x08003cd4   0x000002a5   Data   RO         3503    .conststring        shell.o
-    0x08003f79   0x08003f79   0x00000003   PAD
-    0x08003f7c   0x08003f7c   0x00000020   Data   RO         3996    Region$$Table       anon$$obj.o
-    0x08003f9c   0x08003f9c   0x000000b0   Data   RO         2851    shellCommand        scs_servo.o
-    0x0800404c   0x0800404c   0x00000010   Data   RO         3106    shellCommand        scscl.o
-    0x0800405c   0x0800405c   0x00000120   Data   RO         3505    shellCommand        shell.o
+    0x080003f0   0x080003f0   0x00000038   Code   RO         2818    i.ArmSetGroup       scs_servo.o
+    0x08000428   0x08000428   0x00000002   Code   RO          362    i.BusFault_Handler  stm32f4xx_it.o
+    0x0800042a   0x0800042a   0x00000002   Code   RO          363    i.DebugMon_Handler  stm32f4xx_it.o
+    0x0800042c   0x0800042c   0x00000024   Code   RO         2819    i.DoGroup           scs_servo.o
+    0x08000450   0x08000450   0x00000008   Code   RO         3084    i.EnableTorque      scscl.o
+    0x08000458   0x08000458   0x00000004   Code   RO           13    i.Error_Handler     main.o
+    0x0800045c   0x0800045c   0x00000024   Code   RO         2820    i.ForceAll          scs_servo.o
+    0x08000480   0x08000480   0x00000038   Code   RO         2821    i.GoPos             scs_servo.o
+    0x080004b8   0x080004b8   0x00000024   Code   RO         1424    i.HAL_DMA_Abort_IT  stm32f4xx_hal_dma.o
+    0x080004dc   0x080004dc   0x00000024   Code   RO         1842    i.HAL_Delay         stm32f4xx_hal.o
+    0x08000500   0x08000500   0x000001b8   Code   RO         1316    i.HAL_GPIO_Init     stm32f4xx_hal_gpio.o
+    0x080006b8   0x080006b8   0x0000000c   Code   RO         1848    i.HAL_GetTick       stm32f4xx_hal.o
+    0x080006c4   0x080006c4   0x00000188   Code   RO          527    i.HAL_I2C_Init      stm32f4xx_hal_i2c.o
+    0x0800084c   0x0800084c   0x0000016c   Code   RO          528    i.HAL_I2C_IsDeviceReady  stm32f4xx_hal_i2c.o
+    0x080009b8   0x080009b8   0x000001f8   Code   RO          545    i.HAL_I2C_Mem_Read  stm32f4xx_hal_i2c.o
+    0x08000bb0   0x08000bb0   0x00000130   Code   RO          548    i.HAL_I2C_Mem_Write  stm32f4xx_hal_i2c.o
+    0x08000ce0   0x08000ce0   0x00000068   Code   RO          219    i.HAL_I2C_MspInit   i2c.o
+    0x08000d48   0x08000d48   0x00000010   Code   RO         1854    i.HAL_IncTick       stm32f4xx_hal.o
+    0x08000d58   0x08000d58   0x00000034   Code   RO         1855    i.HAL_Init          stm32f4xx_hal.o
+    0x08000d8c   0x08000d8c   0x00000040   Code   RO         1856    i.HAL_InitTick      stm32f4xx_hal.o
+    0x08000dcc   0x08000dcc   0x00000030   Code   RO          459    i.HAL_MspInit       stm32f4xx_hal_msp.o
+    0x08000dfc   0x08000dfc   0x0000001a   Code   RO         1705    i.HAL_NVIC_EnableIRQ  stm32f4xx_hal_cortex.o
+    0x08000e16   0x08000e16   0x00000002   PAD
+    0x08000e18   0x08000e18   0x00000040   Code   RO         1711    i.HAL_NVIC_SetPriority  stm32f4xx_hal_cortex.o
+    0x08000e58   0x08000e58   0x00000024   Code   RO         1712    i.HAL_NVIC_SetPriorityGrouping  stm32f4xx_hal_cortex.o
+    0x08000e7c   0x08000e7c   0x00000134   Code   RO          962    i.HAL_RCC_ClockConfig  stm32f4xx_hal_rcc.o
+    0x08000fb0   0x08000fb0   0x00000020   Code   RO          969    i.HAL_RCC_GetPCLK1Freq  stm32f4xx_hal_rcc.o
+    0x08000fd0   0x08000fd0   0x00000020   Code   RO          970    i.HAL_RCC_GetPCLK2Freq  stm32f4xx_hal_rcc.o
+    0x08000ff0   0x08000ff0   0x00000064   Code   RO          971    i.HAL_RCC_GetSysClockFreq  stm32f4xx_hal_rcc.o
+    0x08001054   0x08001054   0x0000035c   Code   RO          974    i.HAL_RCC_OscConfig  stm32f4xx_hal_rcc.o
+    0x080013b0   0x080013b0   0x00000080   Code   RO         2104    i.HAL_SPI_Init      stm32f4xx_hal_spi.o
+    0x08001430   0x08001430   0x00000068   Code   RO          261    i.HAL_SPI_MspInit   spi.o
+    0x08001498   0x08001498   0x00000010   Code   RO         3348    i.HAL_SYSTICK_Callback  wiring.o
+    0x080014a8   0x080014a8   0x00000028   Code   RO         1716    i.HAL_SYSTICK_Config  stm32f4xx_hal_cortex.o
+    0x080014d0   0x080014d0   0x00000008   Code   RO         1717    i.HAL_SYSTICK_IRQHandler  stm32f4xx_hal_cortex.o
+    0x080014d8   0x080014d8   0x00000002   Code   RO         2472    i.HAL_UART_ErrorCallback  stm32f4xx_hal_uart.o
+    0x080014da   0x080014da   0x00000002   PAD
+    0x080014dc   0x080014dc   0x00000114   Code   RO         2475    i.HAL_UART_IRQHandler  stm32f4xx_hal_uart.o
+    0x080015f0   0x080015f0   0x00000062   Code   RO         2476    i.HAL_UART_Init     stm32f4xx_hal_uart.o
+    0x08001652   0x08001652   0x00000002   PAD
+    0x08001654   0x08001654   0x00000120   Code   RO          303    i.HAL_UART_MspInit  usart.o
+    0x08001774   0x08001774   0x00000052   Code   RO         2481    i.HAL_UART_Receive_IT  stm32f4xx_hal_uart.o
+    0x080017c6   0x080017c6   0x00000002   PAD
+    0x080017c8   0x080017c8   0x00000048   Code   RO          304    i.HAL_UART_RxCpltCallback  usart.o
+    0x08001810   0x08001810   0x000000ba   Code   RO         2484    i.HAL_UART_Transmit  stm32f4xx_hal_uart.o
+    0x080018ca   0x080018ca   0x00000002   Code   RO         2487    i.HAL_UART_TxCpltCallback  stm32f4xx_hal_uart.o
+    0x080018cc   0x080018cc   0x00000002   Code   RO          364    i.HardFault_Handler  stm32f4xx_it.o
+    0x080018ce   0x080018ce   0x00000002   PAD
+    0x080018d0   0x080018d0   0x00000020   Code   RO         2974    i.Host2SCS          scs.o
+    0x080018f0   0x080018f0   0x0000002e   Code   RO          569    i.I2C_IsAcknowledgeFailed  stm32f4xx_hal_i2c.o
+    0x0800191e   0x0800191e   0x00000002   PAD
+    0x08001920   0x08001920   0x000000fc   Code   RO          579    i.I2C_RequestMemoryRead  stm32f4xx_hal_i2c.o
+    0x08001a1c   0x08001a1c   0x000000a8   Code   RO          580    i.I2C_RequestMemoryWrite  stm32f4xx_hal_i2c.o
+    0x08001ac4   0x08001ac4   0x0000004c   Code   RO          583    i.I2C_WaitOnBTFFlagUntilTimeout  stm32f4xx_hal_i2c.o
+    0x08001b10   0x08001b10   0x00000068   Code   RO          584    i.I2C_WaitOnFlagUntilTimeout  stm32f4xx_hal_i2c.o
+    0x08001b78   0x08001b78   0x00000096   Code   RO          585    i.I2C_WaitOnMasterAddressFlagUntilTimeout  stm32f4xx_hal_i2c.o
+    0x08001c0e   0x08001c0e   0x00000066   Code   RO          586    i.I2C_WaitOnRXNEFlagUntilTimeout  stm32f4xx_hal_i2c.o
+    0x08001c74   0x08001c74   0x0000004c   Code   RO          587    i.I2C_WaitOnTXEFlagUntilTimeout  stm32f4xx_hal_i2c.o
+    0x08001cc0   0x08001cc0   0x00000008   Code   RO         3086    i.LockEprom         scscl.o
+    0x08001cc8   0x08001cc8   0x0000004c   Code   RO          194    i.MX_GPIO_Init      gpio.o
+    0x08001d14   0x08001d14   0x00000040   Code   RO          220    i.MX_I2C1_Init      i2c.o
+    0x08001d54   0x08001d54   0x00000044   Code   RO          262    i.MX_SPI1_Init      spi.o
+    0x08001d98   0x08001d98   0x0000003c   Code   RO          305    i.MX_USART1_UART_Init  usart.o
+    0x08001dd4   0x08001dd4   0x00000038   Code   RO          306    i.MX_USART2_UART_Init  usart.o
+    0x08001e0c   0x08001e0c   0x00000038   Code   RO          307    i.MX_USART3_UART_Init  usart.o
+    0x08001e44   0x08001e44   0x00000002   Code   RO          365    i.MemManage_Handler  stm32f4xx_it.o
+    0x08001e46   0x08001e46   0x00000002   Code   RO          366    i.NMI_Handler       stm32f4xx_it.o
+    0x08001e48   0x08001e48   0x00000002   Code   RO          367    i.PendSV_Handler    stm32f4xx_it.o
+    0x08001e4a   0x08001e4a   0x00000002   PAD
+    0x08001e4c   0x08001e4c   0x00000010   Code   RO         2822    i.Pos2Group         scs_servo.o
+    0x08001e5c   0x08001e5c   0x00000092   Code   RO         2976    i.Read              scs.o
+    0x08001eee   0x08001eee   0x00000002   PAD
+    0x08001ef0   0x08001ef0   0x00000034   Code   RO         3091    i.ReadPos           scscl.o
+    0x08001f24   0x08001f24   0x0000002a   Code   RO         2823    i.Readee16          scs_servo.o
+    0x08001f4e   0x08001f4e   0x00000002   PAD
+    0x08001f50   0x08001f50   0x00000018   Code   RO         2977    i.SCS2Host          scs.o
+    0x08001f68   0x08001f68   0x00000034   Code   RO         3292    i.SCS_Uarthandle    uart.o
+    0x08001f9c   0x08001f9c   0x00000002   Code   RO          368    i.SVC_Handler       stm32f4xx_it.o
+    0x08001f9e   0x08001f9e   0x00000024   Code   RO         2824    i.Save2ee16         scs_servo.o
+    0x08001fc2   0x08001fc2   0x00000002   PAD
+    0x08001fc4   0x08001fc4   0x000000b8   Code   RO         2825    i.SaveAll2ee        scs_servo.o
+    0x0800207c   0x0800207c   0x00000044   Code   RO         2826    i.SavePos           scs_servo.o
+    0x080020c0   0x080020c0   0x0000000e   Code   RO          369    i.SysTick_Handler   stm32f4xx_it.o
+    0x080020ce   0x080020ce   0x00000002   PAD
+    0x080020d0   0x080020d0   0x00000098   Code   RO           14    i.SystemClock_Config  main.o
+    0x08002168   0x08002168   0x0000001c   Code   RO         2778    i.SystemInit        system_stm32f4xx.o
+    0x08002184   0x08002184   0x00000010   Code   RO         2489    i.UART_DMAAbortOnError  stm32f4xx_hal_uart.o
+    0x08002194   0x08002194   0x0000001c   Code   RO         2499    i.UART_EndRxTransfer  stm32f4xx_hal_uart.o
+    0x080021b0   0x080021b0   0x00000096   Code   RO         2501    i.UART_Receive_IT   stm32f4xx_hal_uart.o
+    0x08002246   0x08002246   0x00000002   PAD
+    0x08002248   0x08002248   0x00000128   Code   RO         2502    i.UART_SetConfig    stm32f4xx_hal_uart.o
+    0x08002370   0x08002370   0x00000062   Code   RO         2503    i.UART_Transmit_IT  stm32f4xx_hal_uart.o
+    0x080023d2   0x080023d2   0x00000064   Code   RO         2504    i.UART_WaitOnFlagUntilTimeout  stm32f4xx_hal_uart.o
+    0x08002436   0x08002436   0x00000002   PAD
+    0x08002438   0x08002438   0x0000000c   Code   RO          370    i.USART1_IRQHandler  stm32f4xx_it.o
+    0x08002444   0x08002444   0x0000000c   Code   RO          371    i.USART2_IRQHandler  stm32f4xx_it.o
+    0x08002450   0x08002450   0x0000000c   Code   RO          372    i.USART3_IRQHandler  stm32f4xx_it.o
+    0x0800245c   0x0800245c   0x00000010   Code   RO         3293    i.Uart_Flush        uart.o
+    0x0800246c   0x0800246c   0x00000034   Code   RO         3294    i.Uart_Read         uart.o
+    0x080024a0   0x080024a0   0x0000002c   Code   RO         3295    i.Uart_Send         uart.o
+    0x080024cc   0x080024cc   0x00000002   Code   RO          373    i.UsageFault_Handler  stm32f4xx_it.o
+    0x080024ce   0x080024ce   0x00000002   PAD
+    0x080024d0   0x080024d0   0x0000001c   Code   RO         3818    i.User_Shell_Init   shell_port.o
+    0x080024ec   0x080024ec   0x00000018   Code   RO         3819    i.User_Shell_Write  shell_port.o
+    0x08002504   0x08002504   0x0000003a   Code   RO         3099    i.WritePos          scscl.o
+    0x0800253e   0x0800253e   0x00000020   Code   RO         1718    i.__NVIC_SetPriority  stm32f4xx_hal_cortex.o
+    0x0800255e   0x0800255e   0x0000000e   Code   RO         3998    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0800256c   0x0800256c   0x00000002   Code   RO         3999    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800256e   0x0800256e   0x0000000e   Code   RO         4000    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x0800257c   0x0800257c   0x00000038   Code   RO         2978    i.checkHead         scs.o
+    0x080025b4   0x080025b4   0x00000014   Code   RO         3349    i.delay             wiring.o
+    0x080025c8   0x080025c8   0x0000001c   Code   RO         3856    i.ee24_isConnected  ee24.o
+    0x080025e4   0x080025e4   0x00000040   Code   RO         3857    i.ee24_read         ee24.o
+    0x08002624   0x08002624   0x00000098   Code   RO         3858    i.ee24_write        ee24.o
+    0x080026bc   0x080026bc   0x0000002c   Code   RO         2979    i.genWrite          scs.o
+    0x080026e8   0x080026e8   0x0000004c   Code   RO           15    i.main              main.o
+    0x08002734   0x08002734   0x0000000c   Code   RO         3350    i.millis            wiring.o
+    0x08002740   0x08002740   0x0000000a   Code   RO         2980    i.nopDelay          scs.o
+    0x0800274a   0x0800274a   0x00000004   Code   RO         3239    i.rFlushSCS         scserail.o
+    0x0800274e   0x0800274e   0x00000002   PAD
+    0x08002750   0x08002750   0x000000c0   Code   RO         2827    i.readAll2ram       scs_servo.o
+    0x08002810   0x08002810   0x00000044   Code   RO         3240    i.readSCS           scserail.o
+    0x08002854   0x08002854   0x00000024   Code   RO         2982    i.readWord          scs.o
+    0x08002878   0x08002878   0x00000006   Code   RO         3423    i.shellBackspace    shell.o
+    0x0800287e   0x0800287e   0x0000002e   Code   RO         3424    i.shellCheckPermission  shell.o
+    0x080028ac   0x080028ac   0x0000001c   Code   RO         3425    i.shellClear        shell.o
+    0x080028c8   0x080028c8   0x00000028   Code   RO         3426    i.shellClearCommandLine  shell.o
+    0x080028f0   0x080028f0   0x00000014   Code   RO         3427    i.shellCmds         shell.o
+    0x08002904   0x08002904   0x00000008   Code   RO         3428    i.shellDelete       shell.o
+    0x0800290c   0x0800290c   0x000000b6   Code   RO         3429    i.shellDeleteByte   shell.o
+    0x080029c2   0x080029c2   0x00000002   PAD
+    0x080029c4   0x080029c4   0x0000001c   Code   RO         3430    i.shellDeleteCommandLine  shell.o
+    0x080029e0   0x080029e0   0x00000008   Code   RO         3431    i.shellDown         shell.o
+    0x080029e8   0x080029e8   0x00000014   Code   RO         3432    i.shellEnter        shell.o
+    0x080029fc   0x080029fc   0x00000090   Code   RO         3433    i.shellExec         shell.o
+    0x08002a8c   0x08002a8c   0x0000003c   Code   RO         3787    i.shellExtParseChar  shell_ext.o
+    0x08002ac8   0x08002ac8   0x0000010a   Code   RO         3788    i.shellExtParseNumber  shell_ext.o
+    0x08002bd2   0x08002bd2   0x000000a0   Code   RO         3789    i.shellExtParsePara  shell_ext.o
+    0x08002c72   0x08002c72   0x000000c6   Code   RO         3790    i.shellExtRun       shell_ext.o
+    0x08002d38   0x08002d38   0x00000004   Code   RO         3434    i.shellGetCommandDesc  shell.o
+    0x08002d3c   0x08002d3c   0x00000038   Code   RO         3435    i.shellGetCommandName  shell.o
+    0x08002d74   0x08002d74   0x00000028   Code   RO         3436    i.shellGetCurrent   shell.o
+    0x08002d9c   0x08002d9c   0x0000003e   Code   RO         3437    i.shellGetVarValue  shell.o
+    0x08002dda   0x08002dda   0x00000002   PAD
+    0x08002ddc   0x08002ddc   0x000000cc   Code   RO         3438    i.shellHandler      shell.o
+    0x08002ea8   0x08002ea8   0x00000074   Code   RO         3439    i.shellHelp         shell.o
+    0x08002f1c   0x08002f1c   0x00000098   Code   RO         3440    i.shellHistory      shell.o
+    0x08002fb4   0x08002fb4   0x00000068   Code   RO         3441    i.shellHistoryAdd   shell.o
+    0x0800301c   0x0800301c   0x000000a0   Code   RO         3442    i.shellInit         shell.o
+    0x080030bc   0x080030bc   0x000000c4   Code   RO         3443    i.shellInsertByte   shell.o
+    0x08003180   0x08003180   0x00000014   Code   RO         3444    i.shellKeys         shell.o
+    0x08003194   0x08003194   0x00000018   Code   RO         3445    i.shellLeft         shell.o
+    0x080031ac   0x080031ac   0x0000004c   Code   RO         3447    i.shellListCommand  shell.o
+    0x080031f8   0x080031f8   0x000000ec   Code   RO         3448    i.shellListItem     shell.o
+    0x080032e4   0x080032e4   0x00000050   Code   RO         3449    i.shellListKey      shell.o
+    0x08003334   0x08003334   0x00000050   Code   RO         3450    i.shellListUser     shell.o
+    0x08003384   0x08003384   0x00000050   Code   RO         3451    i.shellListVar      shell.o
+    0x080033d4   0x080033d4   0x00000010   Code   RO         3452    i.shellNormalInput  shell.o
+    0x080033e4   0x080033e4   0x00000078   Code   RO         3453    i.shellParserParam  shell.o
+    0x0800345c   0x0800345c   0x00000018   Code   RO         3455    i.shellRight        shell.o
+    0x08003474   0x08003474   0x000000b8   Code   RO         3457    i.shellRunCommand   shell.o
+    0x0800352c   0x0800352c   0x0000006e   Code   RO         3458    i.shellSeekCommand  shell.o
+    0x0800359a   0x0800359a   0x00000002   PAD
+    0x0800359c   0x0800359c   0x00000060   Code   RO         3459    i.shellSetUser      shell.o
+    0x080035fc   0x080035fc   0x00000058   Code   RO         3460    i.shellSetVar       shell.o
+    0x08003654   0x08003654   0x00000070   Code   RO         3461    i.shellSetVarValue  shell.o
+    0x080036c4   0x080036c4   0x000000b0   Code   RO         3462    i.shellShowVar      shell.o
+    0x08003774   0x08003774   0x00000024   Code   RO         3463    i.shellStringCompare  shell.o
+    0x08003798   0x08003798   0x00000018   Code   RO         3464    i.shellStringCopy   shell.o
+    0x080037b0   0x080037b0   0x000000fc   Code   RO         3465    i.shellTab          shell.o
+    0x080038ac   0x080038ac   0x0000004c   Code   RO         3467    i.shellToDec        shell.o
+    0x080038f8   0x080038f8   0x0000002a   Code   RO         3468    i.shellToHex        shell.o
+    0x08003922   0x08003922   0x00000006   Code   RO         3469    i.shellUp           shell.o
+    0x08003928   0x08003928   0x00000014   Code   RO         3470    i.shellUsers        shell.o
+    0x0800393c   0x0800393c   0x00000014   Code   RO         3471    i.shellVars         shell.o
+    0x08003950   0x08003950   0x0000005c   Code   RO         3472    i.shellWriteCommandLine  shell.o
+    0x080039ac   0x080039ac   0x00000080   Code   RO         3473    i.shellWriteReturnValue  shell.o
+    0x08003a2c   0x08003a2c   0x00000024   Code   RO         3474    i.shellWriteString  shell.o
+    0x08003a50   0x08003a50   0x00000008   Code   RO         3101    i.unLockEprom       scscl.o
+    0x08003a58   0x08003a58   0x00000020   Code   RO         3241    i.wFlushSCS         scserail.o
+    0x08003a78   0x08003a78   0x00000094   Code   RO         2986    i.writeBuf          scs.o
+    0x08003b0c   0x08003b0c   0x0000002a   Code   RO         2987    i.writeByte         scs.o
+    0x08003b36   0x08003b36   0x00000002   PAD
+    0x08003b38   0x08003b38   0x00000028   Code   RO         3242    i.writeSCS          scserail.o
+    0x08003b60   0x08003b60   0x00000010   Data   RO         2779    .constdata          system_stm32f4xx.o
+    0x08003b70   0x08003b70   0x00000008   Data   RO         2780    .constdata          system_stm32f4xx.o
+    0x08003b78   0x08003b78   0x00000004   Data   RO         2829    .constdata          scs_servo.o
+    0x08003b7c   0x08003b7c   0x0000000a   Data   RO         2830    .constdata          scs_servo.o
+    0x08003b86   0x08003b86   0x00000004   Data   RO         2831    .constdata          scs_servo.o
+    0x08003b8a   0x08003b8a   0x00000016   Data   RO         2832    .constdata          scs_servo.o
+    0x08003ba0   0x08003ba0   0x00000004   Data   RO         2833    .constdata          scs_servo.o
+    0x08003ba4   0x08003ba4   0x0000000d   Data   RO         2834    .constdata          scs_servo.o
+    0x08003bb1   0x08003bb1   0x00000004   Data   RO         2835    .constdata          scs_servo.o
+    0x08003bb5   0x08003bb5   0x00000011   Data   RO         2836    .constdata          scs_servo.o
+    0x08003bc6   0x08003bc6   0x00000004   Data   RO         2837    .constdata          scs_servo.o
+    0x08003bca   0x08003bca   0x0000000a   Data   RO         2838    .constdata          scs_servo.o
+    0x08003bd4   0x08003bd4   0x00000004   Data   RO         2839    .constdata          scs_servo.o
+    0x08003bd8   0x08003bd8   0x00000018   Data   RO         2840    .constdata          scs_servo.o
+    0x08003bf0   0x08003bf0   0x00000004   Data   RO         2841    .constdata          scs_servo.o
+    0x08003bf4   0x08003bf4   0x0000000c   Data   RO         2842    .constdata          scs_servo.o
+    0x08003c00   0x08003c00   0x00000003   Data   RO         2843    .constdata          scs_servo.o
+    0x08003c03   0x08003c03   0x0000000d   Data   RO         2844    .constdata          scs_servo.o
+    0x08003c10   0x08003c10   0x00000003   Data   RO         2845    .constdata          scs_servo.o
+    0x08003c13   0x08003c13   0x0000000e   Data   RO         2846    .constdata          scs_servo.o
+    0x08003c21   0x08003c21   0x00000003   Data   RO         2847    .constdata          scs_servo.o
+    0x08003c24   0x08003c24   0x0000000e   Data   RO         2848    .constdata          scs_servo.o
+    0x08003c32   0x08003c32   0x00000004   Data   RO         2849    .constdata          scs_servo.o
+    0x08003c36   0x08003c36   0x0000000e   Data   RO         2850    .constdata          scs_servo.o
+    0x08003c44   0x08003c44   0x00000003   Data   RO         3103    .constdata          scscl.o
+    0x08003c47   0x08003c47   0x0000001b   Data   RO         3104    .constdata          scscl.o
+    0x08003c62   0x08003c62   0x00000007   Data   RO         3476    .constdata          shell.o
+    0x08003c69   0x08003c69   0x00000001   Data   RO         3477    .constdata          shell.o
+    0x08003c6a   0x08003c6a   0x0000000d   Data   RO         3478    .constdata          shell.o
+    0x08003c77   0x08003c77   0x00000007   Data   RO         3479    .constdata          shell.o
+    0x08003c7e   0x08003c7e   0x00000008   Data   RO         3480    .constdata          shell.o
+    0x08003c86   0x08003c86   0x00000003   Data   RO         3481    .constdata          shell.o
+    0x08003c89   0x08003c89   0x00000005   Data   RO         3482    .constdata          shell.o
+    0x08003c8e   0x08003c8e   0x00000006   Data   RO         3483    .constdata          shell.o
+    0x08003c94   0x08003c94   0x00000005   Data   RO         3484    .constdata          shell.o
+    0x08003c99   0x08003c99   0x00000004   Data   RO         3485    .constdata          shell.o
+    0x08003c9d   0x08003c9d   0x0000000a   Data   RO         3486    .constdata          shell.o
+    0x08003ca7   0x08003ca7   0x0000000a   Data   RO         3487    .constdata          shell.o
+    0x08003cb1   0x08003cb1   0x00000007   Data   RO         3488    .constdata          shell.o
+    0x08003cb8   0x08003cb8   0x00000006   Data   RO         3489    .constdata          shell.o
+    0x08003cbe   0x08003cbe   0x00000006   Data   RO         3490    .constdata          shell.o
+    0x08003cc4   0x08003cc4   0x00000005   Data   RO         3491    .constdata          shell.o
+    0x08003cc9   0x08003cc9   0x0000001e   Data   RO         3492    .constdata          shell.o
+    0x08003ce7   0x08003ce7   0x00000006   Data   RO         3493    .constdata          shell.o
+    0x08003ced   0x08003ced   0x0000000e   Data   RO         3494    .constdata          shell.o
+    0x08003cfb   0x08003cfb   0x00000005   Data   RO         3495    .constdata          shell.o
+    0x08003d00   0x08003d00   0x0000000d   Data   RO         3496    .constdata          shell.o
+    0x08003d0d   0x08003d0d   0x00000005   Data   RO         3497    .constdata          shell.o
+    0x08003d12   0x08003d12   0x0000000d   Data   RO         3498    .constdata          shell.o
+    0x08003d1f   0x08003d1f   0x00000005   Data   RO         3499    .constdata          shell.o
+    0x08003d24   0x08003d24   0x0000000d   Data   RO         3500    .constdata          shell.o
+    0x08003d31   0x08003d31   0x00000006   Data   RO         3501    .constdata          shell.o
+    0x08003d37   0x08003d37   0x0000000e   Data   RO         3502    .constdata          shell.o
+    0x08003d45   0x08003d45   0x00000003   PAD
+    0x08003d48   0x08003d48   0x000002a5   Data   RO         3503    .conststring        shell.o
+    0x08003fed   0x08003fed   0x00000003   PAD
+    0x08003ff0   0x08003ff0   0x00000020   Data   RO         3996    Region$$Table       anon$$obj.o
+    0x08004010   0x08004010   0x000000b0   Data   RO         2851    shellCommand        scs_servo.o
+    0x080040c0   0x080040c0   0x00000010   Data   RO         3106    shellCommand        scscl.o
+    0x080040d0   0x080040d0   0x00000120   Data   RO         3505    shellCommand        shell.o
 
 
-    Execution Region RW_IRAM2 (Exec base: 0x10000000, Load base: 0x08004204, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_IRAM2 (Exec base: 0x10000000, Load base: 0x08004278, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
 
     **** No section assigned to this execution region ****
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800417c, Size: 0x00001bd0, Max: 0x00020000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080041f0, Size: 0x00001bd0, Max: 0x00020000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0800417c   0x0000000c   Data   RW         1862    .data               stm32f4xx_hal.o
-    0x2000000c   0x08004188   0x00000004   Data   RW         2781    .data               system_stm32f4xx.o
-    0x20000010   0x0800418c   0x00000002   Data   RW         2989    .data               scs.o
-    0x20000012   0x0800418e   0x00000002   PAD
-    0x20000014   0x08004190   0x00000004   Data   RW         3105    .data               scscl.o
-    0x20000018   0x08004194   0x00000008   Data   RW         3244    .data               scserail.o
-    0x20000020   0x0800419c   0x0000000c   Data   RW         3297    .data               uart.o
-    0x2000002c   0x080041a8   0x00000004   Data   RW         3351    .data               wiring.o
-    0x20000030   0x080041ac   0x00000054   Data   RW         3504    .data               shell.o
-    0x20000084   0x08004200   0x00000001   Data   RW         3821    .data               shell_port.o
-    0x20000085   0x08004201   0x00000001   Data   RW         3859    .data               ee24.o
-    0x20000086   0x08004202   0x00000002   PAD
+    0x20000000   0x080041f0   0x0000000c   Data   RW         1862    .data               stm32f4xx_hal.o
+    0x2000000c   0x080041fc   0x00000004   Data   RW         2781    .data               system_stm32f4xx.o
+    0x20000010   0x08004200   0x00000002   Data   RW         2989    .data               scs.o
+    0x20000012   0x08004202   0x00000002   PAD
+    0x20000014   0x08004204   0x00000004   Data   RW         3105    .data               scscl.o
+    0x20000018   0x08004208   0x00000008   Data   RW         3244    .data               scserail.o
+    0x20000020   0x08004210   0x0000000c   Data   RW         3297    .data               uart.o
+    0x2000002c   0x0800421c   0x00000004   Data   RW         3351    .data               wiring.o
+    0x20000030   0x08004220   0x00000054   Data   RW         3504    .data               shell.o
+    0x20000084   0x08004274   0x00000001   Data   RW         3821    .data               shell_port.o
+    0x20000085   0x08004275   0x00000001   Data   RW         3859    .data               ee24.o
+    0x20000086   0x08004276   0x00000002   PAD
     0x20000088        -       0x00000054   Zero   RW          221    .bss                i2c.o
     0x200000dc        -       0x00000058   Zero   RW          263    .bss                spi.o
     0x20000134        -       0x000000c0   Zero   RW          308    .bss                usart.o
@@ -2499,11 +2499,11 @@ Memory Map of the image
     0x2000092e        -       0x0000000f   Zero   RW         3102    .bss                scscl.o
     0x2000093d        -       0x00000080   Zero   RW         3243    .bss                scserail.o
     0x200009bd        -       0x00000080   Zero   RW         3296    .bss                uart.o
-    0x20000a3d   0x08004202   0x00000003   PAD
+    0x20000a3d   0x08004276   0x00000003   PAD
     0x20000a40        -       0x0000001d   Zero   RW         3475    .bss                shell.o
-    0x20000a5d   0x08004202   0x00000003   PAD
+    0x20000a5d   0x08004276   0x00000003   PAD
     0x20000a60        -       0x0000026c   Zero   RW         3820    .bss                shell_port.o
-    0x20000ccc   0x08004202   0x00000004   PAD
+    0x20000ccc   0x08004276   0x00000004   PAD
     0x20000cd0        -       0x00000f00   Zero   RW            1    STACK               startup_stm32f407xx.o
 
 
@@ -2519,7 +2519,7 @@ Image component sizes
        168         26          0          0         84       1777   i2c.o
        232         28          0          0          0     672484   main.o
        626         16          0          2          0       7779   scs.o
-       736         46        380          0       1850      15779   scs_servo.o
+       852         56        380          0       1850      15995   scs_servo.o
        134         10         46          4         15       8182   scscl.o
        144         22          0          8        128       3259   scserail.o
       3878        218       1192         84         29      45647   shell.o
@@ -2543,7 +2543,7 @@ Image component sizes
         48         18          0          4          0       2179   wiring.o
 
     ----------------------------------------------------------------------
-     14302        852       2072        136       6984     864972   Object Totals
+     14418        862       2072        136       6984     865188   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         40          0          6          4         10          0   (incl. Padding)
 
@@ -2590,15 +2590,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     14692        868       2072        136       6984     849812   Grand Totals
-     14692        868       2072        136       6984     849812   ELF Image Totals
-     14692        868       2072        136          0          0   ROM Totals
+     14808        878       2072        136       6984     850028   Grand Totals
+     14808        878       2072        136       6984     850028   ELF Image Totals
+     14808        878       2072        136          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                16764 (  16.37kB)
+    Total RO  Size (Code + RO Data)                16880 (  16.48kB)
     Total RW  Size (RW Data + ZI Data)              7120 (   6.95kB)
-    Total ROM Size (Code + RO Data + RW Data)      16900 (  16.50kB)
+    Total ROM Size (Code + RO Data + RW Data)      17016 (  16.62kB)
 
 ==============================================================================
 

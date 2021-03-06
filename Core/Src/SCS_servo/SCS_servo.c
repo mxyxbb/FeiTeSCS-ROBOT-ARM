@@ -172,7 +172,7 @@ void SaveAll2ee()
 	if (ee24_isConnected()){
 		
 		//----开始存位置，最大1400字节
-		for(uint8_t i=0;postion[i].pos_id!=-1;i++)//遍历位置ID
+		for(uint8_t i=0;postion[i].pos_id != -1&& i < POS_LEN;i++)//遍历位置ID
 		{
 			Save2ee16(&cnt,postion[i].pos_id);//存ID
 			for(uint8_t j=0;j<5;j++)
@@ -210,7 +210,7 @@ void readAll2ram()
 		Readee16(&cnt,len+1);//动作组数据总长度
 		
 		//----开始读位置----
-		for(uint8_t i=0;(i<len[0])/sizeof(postion[0]);i++)//遍历位置ID
+		for(uint8_t i=0;i<(len[0])/sizeof(postion[0]);i++)//遍历位置ID
 		{
 			Readee16(&cnt,&postion[i].pos_id);//读ID
 			for(uint8_t j=0;j<5;j++)
@@ -251,6 +251,10 @@ void ArmSetGroup()
 	for(uint8_t temp=0;temp<30;temp++)
   {
 		group[temp][0]=1;
+  }
+	for(uint8_t temp=0;temp<100;temp++)
+  {
+		postion[temp].pos_id=1;
   }
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), de1, ArmSetGroup, ArmSetGroup());
